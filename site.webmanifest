@@ -1,0 +1,26 @@
+{
+ "name": "SNMRush",
+ "short_name": "SNMRush",
+ "start_url": "/",
+ "display": "standalone",
+ "background_color": "#FAFBF6",
+ "theme_color": "#0F3D2E",
+ "icons": [
+  {
+   "src": "/assets/img/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/assets/img/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "/assets/img/icon-512-maskable.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}

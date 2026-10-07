@@ -1,0 +1,50 @@
+# SNMRush
+
+> SNMRush (said "S-N-M rush") is an SEO, AEO and GEO agency. The name stands for Search, Neural answers and Mentions: we help brands rank in search results, get cited in AI answers from ChatGPT, Gemini, Perplexity and Google AI Overviews, and earn brand mentions. SOMIN, an AI audience-research platform, is our technology partner for finding the real questions audiences ask.
+
+- Website: https://snmrush.com/
+- Contact: ask@snmrush.com
+- Based in: Singapore
+- Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
+
+## What we do
+- AI visibility audit: We test how ChatGPT, Gemini, Perplexity and AI Overviews describe your category and whether they name you. You get a prompt-level baseline and a ranked list of gaps.
+- Question research: We map the real questions and tensions your audience voices in public conversation, not just keyword volumes. That becomes the content backlog.
+- Answer-ready content: Pages written answer-first, with clear definitions, honest comparisons and evidence. Built to be read by people and quoted by machines.
+- Technical SEO and structured data: Crawlability, schema markup, internal linking and an llms.txt file where it helps. The plumbing that lets engines understand what you publish.
+- Entity and mention building: Consistent facts about your brand across your site, profiles and third-party sources. We pursue earned mentions in the places AI systems tend to draw from.
+- Visibility reporting: Rankings, AI citations and share of mentions tracked together. Monthly readouts that show what moved and what to do next.
+
+## Key pages
+- [Home](https://snmrush.com/): SNMRush is an SEO, AEO and GEO agency. We get brands ranked in search, cited in AI answers and mentioned where buyers ask questions.
+- [Blog](https://snmrush.com/blog/): ten articles
+- [Brand guidelines](https://snmrush.com/brand/)
+
+## Articles
+- [llms.txt: what it does, what it doesn't, and whether to bother](https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/): A practical guide to llms.txt: what the proposed file is, which AI tools read it, how to write one, and why it is no substitute for good content.
+- [Structured data for AI search: the schema that earns its keep](https://snmrush.com/blog/structured-data-for-ai-search/): Which schema.org types help search and AI engines understand your brand, how to implement them honestly, and what structured data cannot do.
+- [Entity building: how to make AI engines know who you are](https://snmrush.com/blog/entity-building-for-brands/): How brands become clear entities for search and AI: consistent facts, official profiles, third-party sources and the questions only you can answer.
+- [Earning citations and brand mentions in AI answers](https://snmrush.com/blog/earning-citations-and-brand-mentions/): Why third-party mentions shape how AI assistants describe brands, and a practical, honest playbook for earning them without spam.
+- [Answer-first writing: how to structure pages AI can quote](https://snmrush.com/blog/answer-first-writing-for-ai-citations/): A practical method for writing pages that answer the question in the first 50 words, so people stay and AI engines can quote you accurately.
+- [How to measure AI visibility without fooling yourself](https://snmrush.com/blog/measuring-ai-visibility/): A repeatable method for tracking brand mentions and citations across ChatGPT, Gemini, Perplexity and AI Overviews, with the caveats that matter.
+- [Finding the questions your audience actually asks](https://snmrush.com/blog/finding-the-questions-your-audience-asks/): Why keyword lists miss the real questions behind AI searches, and how to build a question map from genuine audience conversation.
+- [Standing out when AI makes every brand sound the same](https://snmrush.com/blog/differentiation-when-ai-makes-everyone-sound-the-same/): Why generic AI content struggles to earn citations, and how evidence, point of view and audience language make a brand worth quoting.
+- [SEO, AEO and GEO explained: one programme, three surfaces](https://snmrush.com/blog/seo-aeo-geo-explained/): Plain definitions of SEO, AEO and GEO, how they overlap, where they differ, and how to plan them as a single visibility programme.
+- [AI Overviews and the changing click: what to do about it](https://snmrush.com/blog/ai-overviews-and-the-changing-click/): How Google AI Overviews and AI Mode change search clicks, which queries are most affected, and how to stay visible and valuable.
+
+## FAQ
+- **What do SEO, AEO and GEO mean?** SEO, search engine optimisation, is about ranking in traditional results. AEO, answer engine optimisation, is about being the source an assistant or featured answer uses for a direct question. GEO, generative engine optimisation, is about being cited and described accurately in generated answers from tools like ChatGPT, Gemini, Perplexity and Google AI Overviews. SNMRush treats them as one programme.
+- **Is SNMRush connected to Semrush?** No. SNMRush is an independent agency with no affiliation to Semrush or any SEO software vendor. Our name stands for Search, Neural answers and Mentions, the three surfaces where we build visibility. We use a range of tools, and our technology partner is SOMIN, an AI audience-research platform.
+- **Can you guarantee my brand will appear in ChatGPT or AI Overviews?** No one can honestly guarantee that. AI engines do not publish ranking rules, answers vary between sessions, and models change often. What we can do is improve the factors that are well supported: strong rankings, clear answer-first content, consistent entity information and credible third-party mentions, then measure your citation rate over time.
+- **How do you measure AI visibility?** We build a fixed panel of prompts based on real audience questions, run them across ChatGPT, Gemini, Perplexity and Google AI Overviews on a schedule, and record whether you are mentioned, cited or linked, and how you are described. We report that alongside search rankings and referral traffic from AI tools.
+- **Why does SNMRush use SOMIN?** Because AI answers respond to questions, and the best source of real questions is real conversation. SOMIN shows the questions, tensions and language audiences use in public posts, with evidence attached. That lets us write content that answers what people actually ask, rather than what a keyword list guesses.
+- **How long before we see results?** Technical fixes and restructured pages can be picked up within weeks once they are crawled. Rankings and AI citations usually take a few months to settle, and earned mentions build steadily. We set a baseline in the audit so every change is measured against where you started.
+
+## Sister companies
+- [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
+- [Somonitor](https://somonitor.ai/): Always-on listening you can check
+- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
+- [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
+- [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
+- [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA

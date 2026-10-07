@@ -1,0 +1,828 @@
+# SNMRush
+
+> SNMRush (said "S-N-M rush") is an SEO, AEO and GEO agency. The name stands for Search, Neural answers and Mentions: we help brands rank in search results, get cited in AI answers from ChatGPT, Gemini, Perplexity and Google AI Overviews, and earn brand mentions. SOMIN, an AI audience-research platform, is our technology partner for finding the real questions audiences ask.
+
+- Website: https://snmrush.com/
+- Contact: ask@snmrush.com
+- Based in: Singapore
+- Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
+
+## What we do
+- AI visibility audit: We test how ChatGPT, Gemini, Perplexity and AI Overviews describe your category and whether they name you. You get a prompt-level baseline and a ranked list of gaps.
+- Question research: We map the real questions and tensions your audience voices in public conversation, not just keyword volumes. That becomes the content backlog.
+- Answer-ready content: Pages written answer-first, with clear definitions, honest comparisons and evidence. Built to be read by people and quoted by machines.
+- Technical SEO and structured data: Crawlability, schema markup, internal linking and an llms.txt file where it helps. The plumbing that lets engines understand what you publish.
+- Entity and mention building: Consistent facts about your brand across your site, profiles and third-party sources. We pursue earned mentions in the places AI systems tend to draw from.
+- Visibility reporting: Rankings, AI citations and share of mentions tracked together. Monthly readouts that show what moved and what to do next.
+
+## Key pages
+- [Home](https://snmrush.com/): SNMRush is an SEO, AEO and GEO agency. We get brands ranked in search, cited in AI answers and mentioned where buyers ask questions.
+- [Blog](https://snmrush.com/blog/): ten articles
+- [Brand guidelines](https://snmrush.com/brand/)
+
+## Articles
+- [llms.txt: what it does, what it doesn't, and whether to bother](https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/): A practical guide to llms.txt: what the proposed file is, which AI tools read it, how to write one, and why it is no substitute for good content.
+- [Structured data for AI search: the schema that earns its keep](https://snmrush.com/blog/structured-data-for-ai-search/): Which schema.org types help search and AI engines understand your brand, how to implement them honestly, and what structured data cannot do.
+- [Entity building: how to make AI engines know who you are](https://snmrush.com/blog/entity-building-for-brands/): How brands become clear entities for search and AI: consistent facts, official profiles, third-party sources and the questions only you can answer.
+- [Earning citations and brand mentions in AI answers](https://snmrush.com/blog/earning-citations-and-brand-mentions/): Why third-party mentions shape how AI assistants describe brands, and a practical, honest playbook for earning them without spam.
+- [Answer-first writing: how to structure pages AI can quote](https://snmrush.com/blog/answer-first-writing-for-ai-citations/): A practical method for writing pages that answer the question in the first 50 words, so people stay and AI engines can quote you accurately.
+- [How to measure AI visibility without fooling yourself](https://snmrush.com/blog/measuring-ai-visibility/): A repeatable method for tracking brand mentions and citations across ChatGPT, Gemini, Perplexity and AI Overviews, with the caveats that matter.
+- [Finding the questions your audience actually asks](https://snmrush.com/blog/finding-the-questions-your-audience-asks/): Why keyword lists miss the real questions behind AI searches, and how to build a question map from genuine audience conversation.
+- [Standing out when AI makes every brand sound the same](https://snmrush.com/blog/differentiation-when-ai-makes-everyone-sound-the-same/): Why generic AI content struggles to earn citations, and how evidence, point of view and audience language make a brand worth quoting.
+- [SEO, AEO and GEO explained: one programme, three surfaces](https://snmrush.com/blog/seo-aeo-geo-explained/): Plain definitions of SEO, AEO and GEO, how they overlap, where they differ, and how to plan them as a single visibility programme.
+- [AI Overviews and the changing click: what to do about it](https://snmrush.com/blog/ai-overviews-and-the-changing-click/): How Google AI Overviews and AI Mode change search clicks, which queries are most affected, and how to stay visible and valuable.
+
+## FAQ
+- **What do SEO, AEO and GEO mean?** SEO, search engine optimisation, is about ranking in traditional results. AEO, answer engine optimisation, is about being the source an assistant or featured answer uses for a direct question. GEO, generative engine optimisation, is about being cited and described accurately in generated answers from tools like ChatGPT, Gemini, Perplexity and Google AI Overviews. SNMRush treats them as one programme.
+- **Is SNMRush connected to Semrush?** No. SNMRush is an independent agency with no affiliation to Semrush or any SEO software vendor. Our name stands for Search, Neural answers and Mentions, the three surfaces where we build visibility. We use a range of tools, and our technology partner is SOMIN, an AI audience-research platform.
+- **Can you guarantee my brand will appear in ChatGPT or AI Overviews?** No one can honestly guarantee that. AI engines do not publish ranking rules, answers vary between sessions, and models change often. What we can do is improve the factors that are well supported: strong rankings, clear answer-first content, consistent entity information and credible third-party mentions, then measure your citation rate over time.
+- **How do you measure AI visibility?** We build a fixed panel of prompts based on real audience questions, run them across ChatGPT, Gemini, Perplexity and Google AI Overviews on a schedule, and record whether you are mentioned, cited or linked, and how you are described. We report that alongside search rankings and referral traffic from AI tools.
+- **Why does SNMRush use SOMIN?** Because AI answers respond to questions, and the best source of real questions is real conversation. SOMIN shows the questions, tensions and language audiences use in public posts, with evidence attached. That lets us write content that answers what people actually ask, rather than what a keyword list guesses.
+- **How long before we see results?** Technical fixes and restructured pages can be picked up within weeks once they are crawled. Rankings and AI citations usually take a few months to settle, and earned mentions build steadily. We set a baseline in the audit so every change is measured against where you started.
+
+## Sister companies
+- [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
+- [Somonitor](https://somonitor.ai/): Always-on listening you can check
+- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
+- [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
+- [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
+- [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
+
+
+# Full articles
+
+
+# llms.txt: what it does, what it doesn't, and whether to bother
+URL: https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/ · Published 2026-10-05
+
+llms.txt is a proposed plain-text Markdown file, placed at the root of a website, that gives large language models a short, curated summary of the site and links to its most useful pages. It is cheap to add and can help AI tools that read it, but no major AI search engine has confirmed it as a ranking or citation signal.
+
+## What is llms.txt, exactly?
+
+The idea is simple. A web page is built for browsers: navigation, cookie banners, scripts, footers. A language model trying to understand your business has to dig through all of that. The llms.txt proposal, published in 2024, suggests a single file at /llms.txt written in Markdown that says, in effect, "here is who we are, and here are the pages worth reading". Some versions also point to clean Markdown copies of key pages, and a companion idea, llms-full.txt, bundles the full text of documentation into one file.
+
+It is worth being precise about its status. llms.txt is a community proposal, not a web standard, and it is not the same thing as robots.txt. robots.txt tells crawlers what they may and may not fetch. llms.txt does not grant or block anything; it is a reading guide.
+
+## Do ChatGPT, Gemini, Perplexity or Google AI Overviews use it?
+
+This is where most articles on the subject overreach, so we will be careful. At the time of writing, none of the major AI search experiences has publicly stated that llms.txt influences which sources they cite. Google has said its AI features rely on its normal search index and ranking systems, and its representatives have been sceptical of the file. Server logs from various site owners show occasional fetches of llms.txt, but a fetch is not proof of use in an answer.
+
+Where llms.txt clearly has value is in tools that are told to use it: developer assistants, coding agents and documentation platforms that load a project's llms.txt so a model can work with accurate, current docs. If your audience includes developers, that alone can justify the effort.
+
+Our view at SNMRush: treat llms.txt as good housekeeping, not a visibility lever. It takes an hour, it forces useful clarity, and it will not rescue thin content.
+
+## How do you write a good llms.txt?
+
+The structure in the proposal is short. An H1 with the site or brand name, a one-paragraph summary in a blockquote, optional notes, then H2 sections containing lists of links with a one-line description each. A section called "Optional" can hold links a model may skip if context is limited.
+
+A worked example for a fictional accounting software company might look like this in outline:
+
+- Title: the brand name, exactly as you want it to be named.
+
+- Summary: two sentences stating what the product is, who it serves and where it operates. Write it as the answer you would want an assistant to give.
+
+- Core pages: product overview, pricing, the three most important help articles, security and compliance.
+
+- Explainers: the guides that answer your audience's most common questions.
+
+- Optional: company history, press, careers.
+
+The summary paragraph is the part that matters most, and it is the same discipline as the answer block we recommend on every page. If you cannot describe your company in two plain, factual sentences, an AI system will struggle too. Our guide to answer-first writing (/blog/answer-first-writing-for-ai-citations/) covers that skill in depth.
+
+## Which pages should you include?
+
+Choose pages that answer real questions, not pages that you most want to sell. This is where audience research earns its keep. At SNMRush we use SOMIN, an AI audience-research platform, to see which questions and tensions people voice about a category in public conversation, then check whether the site has a clear page for each. The pages that answer those questions go into llms.txt; gaps go onto the content plan. If you want to see how that research feeds strategy more broadly, the SOMIN strategy (https://somin.ai/somin-strategy/) overview explains the approach.
+
+A short checklist for selection:
+
+- Does the page answer one question clearly in its first paragraph?
+
+- Is it current, with accurate prices, features and dates?
+
+- Is it accessible without login, scripts or interstitials?
+
+- Would you be happy if an assistant quoted it word for word?
+
+- Is it the single best page on the site for that question, rather than one of five overlapping ones?
+
+## Definitions: llms.txt and its neighbours
+
+- robots.txt: a long-standing standard that tells crawlers which paths they may fetch. This is where you allow or block AI crawlers such as GPTBot or Google-Extended.
+
+- sitemap.xml: a machine-readable list of URLs for search engines to discover.
+
+- llms.txt: a proposed human-readable Markdown guide to your most useful content for language models.
+
+- llms-full.txt: a proposed companion file containing full text, mostly used for documentation.
+
+## What matters more than llms.txt?
+
+If you only have a week, spend it elsewhere first. Most AI answer engines that browse the web draw on search indexes, so crawlability, indexing and rankings remain the foundation. Next comes the content itself: direct answers, specific facts, honest comparisons. Then structured data (/blog/structured-data-for-ai-search/) and consistent entity information, which help machines understand who you are. Finally, mentions on credible third-party sites, which shape how assistants describe you.
+
+This ordering is also a useful antidote to the belief that a single file or tag can win AI visibility. The reasoning models discussed by our sister studio GPT5 Marketing (https://gpt5.marketing/) are increasingly good at weighing sources; they reward substance, and they are hard to trick.
+
+## How do you check whether it is working?
+
+Be modest about attribution. Check your server logs for requests to /llms.txt and note the user agents. Keep a fixed panel of prompts and track whether AI tools cite you, before and after the change, but expect any effect to be mixed in with everything else you are doing. Agencies featured in the KPI Media case study (https://somin.ai/agencies-kpi-media-case-study/) show the value of grounding decisions in evidence rather than assumption, and the same principle applies here: measure, do not assume.
+
+Our verdict is straightforward. Add an llms.txt if you have documentation, a developer audience, or simply want a tidy summary of your site for machines. Write the summary paragraph with care. Then get back to the work that is known to matter: answering the questions your audience is actually asking, better than anyone else.
+
+If you would like a second opinion on your setup, SNMRush includes an llms.txt review in every AI visibility audit, alongside crawler access, schema and citation tracking.
+
+
+# Structured data for AI search: the schema that earns its keep
+URL: https://snmrush.com/blog/structured-data-for-ai-search/ · Published 2026-09-21
+
+Structured data is machine-readable markup, usually JSON-LD using schema.org vocabulary, that states facts about a page and the organisation behind it. It helps search engines understand and display content, and supports clearer entity understanding, but it does not by itself make AI tools cite you. Mark up only what is visibly true on the page.
+
+## Why does structured data still matter when AI writes the answer?
+
+Because most AI answer experiences sit on top of search systems. Google states that its AI features draw on the same index and ranking systems as Search, and other assistants frequently ground answers in web results. Anything that helps a search engine understand your page with less ambiguity helps the foundation those answers rest on.
+
+Structured data also does a quieter job: it ties your pages to a clear entity. When your Organization markup names your brand, logo, official profiles and contact points consistently, you reduce the chance that a system confuses you with a similarly named company. For a brand like SNMRush, which needs to be clearly distinct from software vendors with similar-sounding names, that disambiguation is not cosmetic.
+
+What it will not do is persuade a language model that your content is better than it is. Engines have said plainly that markup is not a ranking shortcut. Think of it as labelling, not persuasion.
+
+## Which schema types are worth implementing?
+
+For most brands, a small set covers the ground:
+
+- Organization on the home or about page: legal and brand name, logo, URL, sameAs links to official profiles, contact point.
+
+- WebSite with the site name, so search engines show the right name in results.
+
+- Article or BlogPosting on editorial content: headline, author, dates published and modified, publisher.
+
+- Person for named authors, with links to their profiles, which supports the experience and expertise signals editors and engines both look for.
+
+- Product or Service, with offers and prices where they are genuinely published on the page.
+
+- BreadcrumbList to express site hierarchy.
+
+- FAQPage, with care. Google narrowed FAQ rich results to a limited set of authoritative sites in 2023, so do not expect the visual treatment, but marking up genuine visible FAQs remains valid and harmless.
+
+## How do you implement it without creating problems?
+
+A checklist we use on every SNMRush audit:
+
+- Use JSON-LD in the page head or body. It is the format Google recommends and it keeps markup separate from layout.
+
+- Match the visible page. Every fact in the markup must appear on the page. Hidden claims risk manual actions and erode trust.
+
+- Keep one source of truth. Generate markup from your CMS fields so prices, dates and names never drift.
+
+- Connect entities with @id. Give your Organization a stable identifier and reference it from articles and products, so the graph links together.
+
+- Validate. Run pages through the Rich Results Test and the Schema Markup Validator after every template change.
+
+- Update dateModified honestly. Change it when content materially changes, not to fake freshness.
+
+## Definitions
+
+- Schema.org: a shared vocabulary of types and properties supported by the major search engines.
+
+- JSON-LD: a JSON format for linked data, embedded in a script tag.
+
+- Rich result: an enhanced search listing, such as review stars or breadcrumbs, that structured data can make eligible.
+
+- Entity: a uniquely identifiable thing, such as a company or person, that search systems try to recognise across the web.
+
+## What does a good Organization block contain?
+
+Think about the questions an assistant might be asked about you. What is this company? Where is it based? What does it do? Is it the same as that other company? Your Organization markup should answer the factual parts cleanly: name, alternate names (including how the name is spoken, if that is a common confusion), a one-sentence description that matches your about page, logo, founding date if you publish it, and sameAs links to your LinkedIn, YouTube and other official profiles. Our article on entity building (/blog/entity-building-for-brands/) goes further into how these signals combine with third-party sources.
+
+## Where does audience research fit into structured data?
+
+More than you might expect. The descriptions and FAQs you mark up should reflect the language your audience uses, not internal jargon. If customers call your product "a listening tool" and you call it "an omnichannel conversational intelligence suite", your markup is technically valid and practically invisible. We use SOMIN, an AI audience-research platform, to check the words and questions people actually use about a category, so that what we label matches what people ask. The SOMIN for brands (https://somin.ai/somin-for-brands/) page explains how that research works for in-house teams.
+
+The same principle shows up in sibling disciplines. Our partners at AgentC (https://agentc.marketing/) run AI agents across research and content workflows, and their lesson is the one we see in schema: automation only helps when the inputs are clean and true.
+
+## How do you know whether it helped?
+
+For classic search, Search Console reports which rich result types are detected and whether they have errors, and you can compare click-through rates for pages before and after. For AI visibility, attribution is harder and you should be honest about it. Track a consistent panel of prompts, note whether assistants describe your brand accurately, and watch for fewer factual errors over time. Brands such as the one in the Fujifilm case study (https://somin.ai/brands-fujifilm-case-study/) show why a clear, evidence-led brand picture matters across channels; markup is one small part of keeping that picture consistent.
+
+Structured data is unglamorous, and that is the point. It is the labelling on the shelf. It will not make a weak product sell, but it stops a strong one being misfiled. Get it right once, automate it, validate it, and move on to the content that earns citations.
+
+
+# Entity building: how to make AI engines know who you are
+URL: https://snmrush.com/blog/entity-building-for-brands/ · Published 2026-09-14
+
+Entity building is the work of making your brand a clear, unambiguous "thing" that search engines and AI models recognise, with consistent facts about who you are, what you do and how you relate to other entities. It combines on-site clarity, structured data, official profiles and independent third-party sources that describe you the same way.
+
+## What is an entity, and why do AI engines care?
+
+Search engines stopped thinking only in strings of words years ago. They try to understand things: companies, people, products, places, and the relationships between them. Google's Knowledge Graph is the best-known example. Large language models build something looser but similar during training: associations between a name and the facts that tend to appear near it.
+
+When someone asks an assistant "which agencies help with AI search visibility in Singapore?", the answer depends partly on which entities the system associates with that category and place, and partly on what it finds when it searches the web. If your brand is fuzzy, inconsistent or easily confused with another, you are less likely to be named, and more likely to be described wrongly when you are.
+
+## What are the signs of a weak entity?
+
+- Assistants describe your company using an old positioning, a former name or a competitor's features.
+
+- Your brand is confused with a similarly named company. (We think about this a lot: SNMRush stands for Search, Neural answers and Mentions, and has no connection to any SEO software vendor.)
+
+- Your about page, LinkedIn, directory listings and press boilerplate all describe you differently.
+
+- Nobody outside your own site writes about you in your category.
+
+## How do you build a strong brand entity?
+
+We work through five layers, in order.
+
+### 1. Write your canonical description
+
+One or two sentences that name the brand, the category, the audience and the location. Then use it, word for word or close to it, everywhere you control. Our own: "SNMRush is an SEO, AEO and GEO agency that helps brands rank in search, get cited in AI answers and earn brand mentions." It is not poetic. It is repeatable.
+
+### 2. Make the home of the entity unmistakable
+
+Your about page should answer the obvious questions in plain prose: what you are, who founded you, where you operate, what you are not. Mark it up with Organization schema and sameAs links, as covered in our guide to structured data for AI search (/blog/structured-data-for-ai-search/).
+
+### 3. Align the profiles you own
+
+LinkedIn, YouTube, Crunchbase, Google Business Profile, app stores, industry directories. Same name, same description, same logo, same URL. This is tedious, and it is exactly the tedium most competitors skip.
+
+### 4. Earn independent descriptions
+
+Entities are strengthened by sources you do not control: trade press, partner pages, podcasts, conference listings, reputable reviews, and community discussion. Each one that describes you accurately and in your category reinforces the association. We cover how to earn them in our article on citations and brand mentions (/blog/earning-citations-and-brand-mentions/).
+
+### 5. Own a set of questions
+
+The most durable entity signal is being the best source on a set of questions in your space. That is where audience research comes in.
+
+## Why do questions matter more than keywords for entities?
+
+Because AI engines are built to answer questions, and the associations they form are about which sources reliably answer which questions. A brand that publishes the clearest explanation of a recurring audience problem becomes linked to that problem.
+
+At SNMRush we use SOMIN, an AI audience-research platform, to find those problems. SOMIN analyses real social posts and surfaces the tensions, concerns and questions people voice, with each conclusion traceable to the posts behind it. That traceability matters: it means our content plan rests on what people said, not on what we assumed. The SOMIN for agencies (https://somin.ai/somin-for-agencies/) page describes how agencies put that research to work.
+
+Cultural nuance matters here too. The way a question is asked in Singapore differs from how it is asked in London or Sydney, and the phrasing shapes what gets retrieved. Our sister consultancy Mindfuse (https://mindfuse.sg/) works on exactly these cultural codes and personas across Southeast Asia, and we often borrow their lens when a client operates across markets.
+
+## Entity checklist
+
+- Canonical one-sentence description agreed and documented.
+
+- About page answers what, who, where and what-not, in prose.
+
+- Organization schema with stable @id, logo and sameAs links.
+
+- All owned profiles aligned on name, description and URL.
+
+- Named people (founders, authors) with consistent bios and profiles.
+
+- At least a handful of independent sources describing you accurately.
+
+- A cluster of pages that answer your audience's real questions better than anyone else.
+
+- A quarterly check of how AI assistants describe you, with errors logged and traced to sources.
+
+## How long does entity building take?
+
+Owned changes can be done in weeks. Search engines may pick them up as soon as pages are recrawled. Language models are slower: what a model "knows" from training changes only when a new version is trained, though assistants that search the web can reflect updates sooner. Independent mentions accumulate over months. Plan for a quarter to see consistent description, and longer for strong category association.
+
+Be wary of anyone who promises to "get you into the knowledge graph" in days, or to make an assistant say specific things about you. Nobody controls that. What you can control is the clarity and consistency of the evidence.
+
+## What does good look like?
+
+Ask three assistants what your company does. If they give a correct, consistent answer, name the right category, and do not confuse you with anyone else, your entity is in good shape. The Reassured case study (https://somin.ai/brands-reassured-case-study/) is a useful read on how a brand grounded its positioning in audience evidence; that kind of clarity is what entity work makes visible to machines.
+
+Entity building rarely feels urgent. It is the work underneath every other visibility effort, and when it is missing, everything else leaks.
+
+
+# Earning citations and brand mentions in AI answers
+URL: https://snmrush.com/blog/earning-citations-and-brand-mentions/ · Published 2026-09-07
+
+To earn citations and brand mentions in AI answers, publish the clearest source on questions your audience genuinely asks, then get credible independent sites to describe you accurately in your category. AI assistants that search the web tend to cite pages that answer directly and draw descriptions from several sources, so mentions you do not control matter.
+
+## What is the difference between a citation and a mention?
+
+The two are related but not the same, and it helps to track them separately.
+
+- Citation: an AI answer links to or names your page as a source. Perplexity, ChatGPT search, Gemini and Google AI Overviews all show sources in some form.
+
+- Mention: the answer names your brand, with or without a link. "Agencies such as X and Y offer this."
+
+- Description: how the answer characterises you. A mention with the wrong description can do more harm than no mention.
+
+The M in SNMRush stands for Mentions because we think this third surface is the most underrated. Search results and neural answers both increasingly reflect what others say about you.
+
+## Why do third-party mentions matter so much?
+
+We should be careful here: no AI company publishes how its systems choose sources. But a few things are well established. Assistants that browse retrieve several pages and synthesise them. When a question is comparative ("best", "alternatives to", "which agency"), the pages retrieved are often lists, reviews, forums and articles written by people other than the brands themselves. If you only appear on your own site, you are one voice in a room where the synthesis favours consensus.
+
+Language models also learn associations during training from text across the web. A brand repeatedly described in a category, by varied credible sources, is more likely to be associated with that category. Neither mechanism rewards volume of links in the old SEO sense. Both reward accurate, repeated, independent description.
+
+## How do you earn mentions without spamming?
+
+Here is the playbook we run, roughly in order of effort.
+
+- Fix what you already have. Search for your brand and list every page that describes you. Correct outdated directory listings, partner pages and old press boilerplate. This is the quickest win available.
+
+- Be useful where your audience asks. Communities, forums and professional groups are where comparative questions get answered in public. Answer genuinely, as a named person, and disclose your affiliation.
+
+- Publish something worth citing. Original frameworks, checklists, definitions and clear explanations of recurring problems. Journalists and bloggers link to the source that saves them work.
+
+- Show up in people's formats. Podcasts, panels, webinars and community events create transcripts, show notes and listings that describe you in context.
+
+- Pursue relevant comparison and review pages. Ask to be assessed fairly, provide accurate information, and accept the result.
+
+What we avoid: paid link schemes, fake reviews, mass-produced guest posts and planting brand names in forums. Beyond the ethics, these tactics are increasingly detectable and can damage how both search engines and people see you.
+
+## How do you find the questions worth answering?
+
+This is the step most mention programmes skip. Pitches fail because they are about the brand, not about something the audience needs. We start from listening. SNMRush uses SOMIN, an AI audience-research platform, to surface the concerns and questions people raise about a category in real social conversation. Every theme links back to the posts that evidence it, which means we can show a journalist or community manager exactly why a topic matters. For always-on listening, our sister app Somonitor (https://somonitor.ai/) tracks share of voice and conversation signals in the same spirit, built on SOMIN's concept engine.
+
+That aligns with a principle we hold strongly: trust grows from conversation, not from algorithms that claim to know people too well. Brands that listen first find it easier to be mentioned, because they have something to say that people already care about.
+
+## Where do community and events fit?
+
+Bigger than most SEO plans allow. A talk at a meetup produces an event listing, a recording, social posts from attendees and, often, a write-up. Each describes you in context. In Singapore, sessions run by Marketing Mondays (https://mondays.marketing/), the marketing community and weekly show founded by SOMIN, are a good example of the format: one real signal, decoded and discussed in public. Contributing to that kind of conversation earns the sort of mention that no outreach template can.
+
+## Mention-earning checklist
+
+- Inventory of every page that describes your brand, with errors logged.
+
+- A canonical description supplied to partners and directories.
+
+- Three to five evidence-backed topics your audience genuinely cares about.
+
+- One citable asset per topic: a framework, guide or clear explainer.
+
+- A named spokesperson active in the relevant communities.
+
+- A quarterly prompt panel to see which sources AI answers cite in your category.
+
+## How do you see which sources AI answers rely on?
+
+Run your category's comparative questions through Perplexity, ChatGPT with search, Gemini and Google AI Overviews, and record every source shown. Patterns appear quickly: the same few review sites, publications or forums tend to recur in a category. Those are your mention targets. Our guide to measuring AI visibility (/blog/measuring-ai-visibility/) sets out how to make this repeatable rather than anecdotal.
+
+For a worked example of turning audience evidence into positioning that others repeat, the Havas Media case study (https://somin.ai/agencies-havas-media-case-study/) is worth reading, alongside the wider SOMIN case library (https://somin.ai/cases-ai-marketing-strategy/).
+
+Mentions are slow to earn and hard to fake. That is exactly why they are worth more than ever: in an answer engine, being described well by others is the closest thing to a recommendation.
+
+
+# Answer-first writing: how to structure pages AI can quote
+URL: https://snmrush.com/blog/answer-first-writing-for-ai-citations/ · Published 2026-08-31
+
+Answer-first writing means putting a direct, self-contained answer to the page's main question in the first 40 to 60 words, then supporting it with detail, evidence and nuance. It helps readers decide quickly and gives search and AI engines a clean passage they can extract and attribute accurately, without changing what makes content good.
+
+## Why does answer-first writing work for AI engines?
+
+Search and AI systems increasingly work at the level of passages, not whole pages. Google has talked publicly about passage ranking, and AI answer tools retrieve chunks of text to ground their responses. A passage that states a clear answer, names its subject and makes sense out of context is easier to retrieve and quote than one buried in paragraph six after a long preamble.
+
+There is no secret format that guarantees a citation, and we would distrust anyone who claimed otherwise. But answer-first structure removes friction. It is the same principle journalists call the inverted pyramid, and it predates AI by a century.
+
+## What does a good answer paragraph look like?
+
+Five tests we apply at SNMRush:
+
+- It answers the question as asked. If the H1 asks "what is", the first sentence defines. If it asks "how", the first sentence names the method.
+
+- It names its subject. "llms.txt is…" rather than "It is…". Pronouns lose meaning when a passage is lifted out of the page.
+
+- It stands alone. A reader who sees only this paragraph should understand and be able to act.
+
+- It is specific. Numbers, names, conditions. "In the first 40 to 60 words" beats "early on".
+
+- It is honest about limits. If the answer is "it depends", say on what.
+
+## How do you structure the rest of the page?
+
+After the answer, the page earns its length by going deeper than anyone else. A structure that works for most explainers:
+
+- Question-style H2s that mirror how people ask follow-ups: "How long does it take?", "What does it cost?", "What are the risks?"
+
+- A short answer under each H2, then detail. Every section is a mini answer-first unit.
+
+- A definitions block or checklist, because lists are easy to scan and to extract.
+
+- A worked example that shows the idea applied, which is where most generic content falls short.
+
+- Three FAQs at the end for the edge questions.
+
+Every article on this blog follows that pattern, and it is the format we use for client content. It is deliberately plain.
+
+## Where do the questions come from?
+
+This is the part that separates answer-first writing that gets cited from answer-first writing that does not. The format is easy to copy. The question choice is not.
+
+Keyword tools tell you what people typed into a search box, aggregated and anonymised. They rarely tell you the tension behind it. Someone searching "AI content tools" might be worried about sounding generic, about job security, or about a boss who wants twice the output. Each needs a different answer.
+
+We use SOMIN, an AI audience-research platform, to hear those tensions directly. SOMIN analyses real social conversation and surfaces the questions, worries and language people use, with each theme traceable to the posts behind it. That lets us write the answer to the question people actually have, in their words. The SOMIN for brands (https://somin.ai/somin-for-brands/) overview explains how in-house teams use the same research. We cover the full workflow in finding the questions your audience asks (/blog/finding-the-questions-your-audience-asks/).
+
+## Definitions
+
+- AEO (answer engine optimisation): optimising content to be selected as the direct answer by search features and AI assistants.
+
+- Passage: a self-contained chunk of text that a retrieval system can select independently of the page.
+
+- Inverted pyramid: the journalistic convention of most important information first.
+
+## A worked example
+
+Suppose a fintech brand wants to rank for "how long does a business bank account take to open". A typical page opens with two paragraphs about the importance of banking for small businesses. An answer-first rewrite opens: "Opening a business bank account with [Brand] typically takes one to three working days once you have submitted your company registration documents and identity checks; delays usually come from missing director information." It then has H2s for the documents needed, the common delays, and how it compares with traditional banks.
+
+Notice what the rewrite does: it names the brand, gives a range rather than a promise, states the condition and explains the exception. That is a sentence an assistant can quote without misleading anyone.
+
+## Will this make all content sound the same?
+
+Only if you let the structure replace the substance. The structure is a container. What goes in it should be your evidence, your point of view and your examples. Our sister consultancy GPT3 Marketing (https://gpt3.marketing/) has written widely about the sea of AI sameness, and their remedy matches ours: ground every piece in what real audiences respond to, then edit as a human.
+
+For a view of how audience evidence turns into distinctive content in practice, the Mothercare Singapore case study (https://somin.ai/brands-mothercare-sg-case-study/) is a useful read.
+
+## What are the most common answer-first mistakes?
+
+- Restating the question instead of answering it.
+- Hedging so much that no answer survives.
+- Answering a different question from the one in the heading, usually the one the brand wanted to talk about.
+- Leaving the answer to a sales pitch. The first paragraph should be useful even to someone who never buys.Answer-first writing is a courtesy before it is a tactic. Respect the reader's question, answer it, then earn the rest of their attention. Machines happen to reward the same courtesy.
+
+
+# How to measure AI visibility without fooling yourself
+URL: https://snmrush.com/blog/measuring-ai-visibility/ · Published 2026-08-24
+
+To measure AI visibility, build a fixed panel of prompts based on real audience questions, run them on a schedule across ChatGPT, Gemini, Perplexity and Google AI Overviews, and record whether your brand is mentioned, cited or linked, and how it is described. Repeat runs, because answers vary, and report trends rather than single results.
+
+## Why is AI visibility hard to measure?
+
+Three reasons, and it helps to say them out loud before anyone builds a dashboard.
+
+- Answers are non-deterministic. Ask the same question twice and you may get different brands, different sources and different wording.
+
+- Answers are personalised and contextual. Location, account history, conversation context and model version all shift results.
+
+- There is no published "position". Unlike a search ranking, there is no official rank to look up, and most AI platforms provide limited analytics to brands.
+
+So any single screenshot of an assistant naming your brand, or failing to, is an anecdote. Measurement means sampling.
+
+## What should you measure?
+
+We track four layers at SNMRush, matching our name: Search, Neural answers and Mentions.
+
+- Presence: the share of prompts in which your brand is mentioned at all.
+
+- Citation: the share in which one of your pages is shown as a source or linked.
+
+- Accuracy: whether the description is correct (category, offer, location, no confusion with other brands).
+
+- Share of mentions: how often you appear relative to named competitors across the same panel.
+
+Alongside those, keep the classic search metrics, because many AI answers are grounded in search results: rankings for the same questions, Search Console impressions, and referral traffic from AI tools in your analytics (sources such as chatgpt.com or perplexity.ai now appear in many referral reports).
+
+## How do you build a prompt panel?
+
+The panel is the heart of the method, and its quality decides whether the numbers mean anything.
+
+Most teams start by brainstorming prompts in a meeting. The result is a list of questions the marketing team would ask, which is rarely what customers ask. We build panels from evidence instead. SNMRush uses SOMIN, an AI audience-research platform, to surface the questions and tensions people voice about a category in real social conversation, and we phrase prompts in the audience's own language. The method is described in finding the questions your audience asks (/blog/finding-the-questions-your-audience-asks/).
+
+A balanced panel usually includes:
+
+- Category questions: "What is the best way to…", "Which tools help with…"
+
+- Problem questions: the tensions behind the search, phrased as people phrase them.
+
+- Comparison questions: "X vs Y", "alternatives to X".
+
+- Brand questions: "What is [brand]?", "Is [brand] good for…"
+
+- Local variants if you operate in more than one market.
+
+Fifty to a hundred and fifty prompts is a workable range for most brands. Freeze the panel for a quarter so trends are comparable.
+
+## How often should you run it?
+
+Monthly is enough for most brands, with each prompt run several times per engine to smooth out variation. Record the date, engine, mode (for example, with or without web search), location and full response. Keep the raw answers; you will want to reread them when a number moves.
+
+## Definitions
+
+- Prompt panel: a fixed list of questions used to sample AI answers over time.
+
+- Presence rate: percentage of panel runs that mention your brand.
+
+- Citation rate: percentage of runs that show your domain as a source.
+
+- Share of mentions: your mentions as a proportion of all tracked brand mentions in the panel.
+
+## What are the common mistakes?
+
+- Reporting a single run. One answer is a sample of one.
+
+- Changing the panel every month. You lose comparability.
+
+- Counting mentions without reading them. A mention that describes you wrongly is a problem, not a win.
+
+- Claiming causation. If presence rises after you publish a page, that is encouraging, not proof. Models update, competitors change, and engines tweak retrieval.
+
+- Ignoring the money. Visibility is a means. Tie it to enquiries and revenue where you can.
+
+That last point deserves emphasis. Our sister app Trafix (https://trafix.app/) makes the case for paid media that vanity ROAS hides true profit; the AI visibility equivalent is a rising mention count that never turns into a conversation with a buyer. Track assisted conversions and enquiry sources alongside the visibility metrics.
+
+## How should results be reported?
+
+A one-page monthly readout works best: the four headline rates with trend lines, the prompts that moved most, three examples of answers quoted verbatim, the sources AI engines cited most in your category, and a short list of actions. The SOMIN reporting (https://somin.ai/somin-reporting/) page shows a similar philosophy applied to marketing reporting more widely: every number should trace back to the evidence behind it.
+
+For a sense of how agencies make evidence-led reporting part of a client relationship, the Analytic Partners case study (https://somin.ai/agencies-analytic-partners-case-study/) is worth a look.
+
+## What does a good baseline look like?
+
+There is no universal benchmark, and you should be suspicious of anyone quoting one. A good baseline is simply your own first quarter of data, measured consistently. From there, the questions become practical: which prompts never mention us, which sources do engines cite instead, and what would it take to become the better source?
+
+One more practical tip: log the model or mode each engine reports where it is visible. When a platform ships a new model, results can shift overnight, and you will want to separate that from the effect of your own work.
+
+That is where measurement turns back into work: the answers point to answer-first content (/blog/answer-first-writing-for-ai-citations/) to write, entities to clarify and mentions to earn. Measure honestly, act on the gaps, and measure again.
+
+
+# Finding the questions your audience actually asks
+URL: https://snmrush.com/blog/finding-the-questions-your-audience-asks/ · Published 2026-08-10
+
+The questions your audience asks are best found in their own conversations, not only in keyword tools. Combine search data with social listening, community threads, sales calls and support tickets, group what you hear into tensions, then write one clear page per question. AI assistants answer conversational prompts, so conversational research fits them.
+
+## Why are keyword lists no longer enough?
+
+Keyword research was built for a search box where people typed three or four words. Prompts to AI assistants are longer and more personal: "I run a small skincare brand in Singapore and my content sounds like everyone else's, what should I do?" That question contains a category, a location, a problem and an emotion. A keyword tool reduces it to "skincare content ideas".
+
+Keyword data is still useful. It tells you about demand and how people phrase short queries. But it rarely reveals the tension behind a search, and tension is what decides which answer feels useful.
+
+## Where do the real questions live?
+
+- Public social conversation: posts, comments and threads where people complain, compare and ask each other for advice.
+
+- Communities and forums: long-form questions with context, and answers others endorse.
+
+- Sales and support: the objections and confusions your team hears every week.
+
+- Search data: People Also Ask, autocomplete and Search Console queries, especially long ones.
+
+- AI answers themselves: ask assistants about your category and note the follow-up questions they suggest.
+
+## How does SNMRush turn conversation into a question map?
+
+We use SOMIN, an AI audience-research platform, as our technology partner for this step. SOMIN analyses real social posts and surfaces concepts: the tones, emotions and tensions people express, grouped into themes. The crucial feature for us is traceability. Every concept links back to the posts that evidence it, so we can check that a theme is real and read the exact words people use. The SOMIN AI agents (https://somin.ai/ai-agents/) page describes how its research agents work.
+
+That matters for a reason beyond accuracy. Our listening across marketing conversations keeps returning to one theme: people distrust brands that claim to know them too well, and trust the ones that listen. Building content from what people actually said, rather than from what an algorithm inferred about them, is a small, practical way to honour that.
+
+The process runs in four steps:
+
+- Gather. Pull conversation about the category, competitors and adjacent problems over the last six to twelve months.
+
+- Cluster. Group posts into tensions: the underlying conflict, such as "I need more content but I am afraid it will sound generic".
+
+- Phrase. For each tension, write the questions people ask, in their wording, from beginner to expert.
+
+- Map. Match each question to an existing page, a page to rewrite, or a page to create.
+
+## Definitions
+
+- Tension: a conflict or pain point people feel, which produces many related questions.
+
+- Question map: a structured list of audience questions, each assigned to one best page.
+
+- Conversational query: a long, natural-language question of the kind typed into AI assistants.
+
+## A worked example
+
+Take marketing leaders exploring AI. A keyword tool shows demand for "AI marketing tools" and "AI content generator". Listening reveals more: worry that AI will replace their role, frustration with AI content that needs heavy rewriting, anxiety about explaining results to a board, and a desire to find peers who are figuring it out too. Each becomes a cluster of questions. "Will AI replace marketing managers?" "Why does AI content still need so much editing?" "How do I report AI visibility to my CEO?"
+
+Notice that some of these are not product questions at all. They are human ones. That is precisely why communities like Marketing Mondays (https://mondays.marketing/), the Singapore marketing community and weekly show founded by SOMIN, exist: one real signal, decoded and made actionable, discussed with peers. For our clients, those human questions are often where an honest, useful page earns the most trust and the most citations.
+
+## How do you prioritise the questions?
+
+Score each question on three factors: how often it appears in conversation, how close it is to a buying decision, and how poorly it is currently answered by search results and AI assistants. The best opportunities are frequent, close to decision, and badly served. Persona work helps too; our sister consultancy Mindfuse (https://mindfuse.sg/) builds personas and tension maps for Southeast Asian audiences, and the same thinking sharpens prioritisation.
+
+Then write the pages using answer-first structure (/blog/answer-first-writing-for-ai-citations/), and add the questions to your AI visibility prompt panel (/blog/measuring-ai-visibility/) so you can see whether engines start citing you.
+
+## What does this look like in practice?
+
+The SOMIN case library has several examples of brands and agencies using conversation evidence to shape what they say. The SM Universe case study (https://somin.ai/brands-sm-universe-case-study/) is a good place to start for how audience signals become content direction.
+
+## What should you avoid?
+
+- Treating volume as importance. A loud complaint from a small group may not represent buyers.
+- Paraphrasing away the language. Keep the audience's words; they are what people type into assistants.
+- Writing one page per phrasing. Several phrasings of the same question belong on one strong page.
+- Forgetting to recheck. Conversations move, and last year's tension may have faded.Finally, share the question map beyond marketing. Sales, product and support teams recognise these questions instantly, and they often add the ones listening missed. A map that the whole company trusts is far more likely to be kept current.
+
+The shift is simple to describe and hard to fake. Stop guessing what people want to know. Listen, write down what they actually ask, and answer it better than anyone else.
+
+
+# Standing out when AI makes every brand sound the same
+URL: https://snmrush.com/blog/differentiation-when-ai-makes-everyone-sound-the-same/ · Published 2026-07-27
+
+When AI tools let every brand publish the same competent paragraphs, the content that earns citations is the content that adds something others do not: first-hand evidence, a clear point of view, specific examples and the audience's own language. Answer engines synthesise many sources, so a page that repeats the consensus gives them little reason to name you.
+
+## Why does sameness hurt visibility now?
+
+Think about how an AI answer is assembled. A system retrieves several pages that address a question, then writes a synthesis. If ten pages say the same thing in slightly different words, the synthesis needs only one of them, and it may need none, because the consensus is already well represented in what the model learned. The pages that get named are often the ones that contributed something distinct: a definition, a framework, a figure, a caveat, an example.
+
+We are careful not to overstate the mechanics; no AI company publishes its source-selection rules. But Google's guidance on helpful content has long emphasised originality and first-hand expertise, and the logic of synthesis points the same way. Repeating the consensus is a weak position.
+
+## What does differentiated content actually contain?
+
+- Evidence you hold and others do not: what your audience says, what your support team hears, what you have tested.
+
+- A point of view: a claim someone could disagree with, argued honestly.
+
+- Specific examples: worked cases, even hypothetical ones, that show the idea applied.
+
+- Your audience's language: the words customers use, which are rarely the words in your brand guidelines.
+
+- Honest limits: when your approach is the wrong choice. Few brands say this, which is why it stands out.
+
+## Where does the evidence come from?
+
+Most brands have more of it than they think, scattered across sales notes, reviews and social threads. The trouble is turning it into something structured and trustworthy.
+
+That is the job SOMIN, an AI audience-research platform, does for SNMRush. SOMIN analyses real social conversation and identifies the tensions people express, from frustration to aspiration, with every finding linked to the posts behind it. Our listening on brand differentiation keeps surfacing the same tension among marketers: the pressure to publish more with AI, and the fear that it makes them indistinguishable from everyone else. Discounting and volume are the usual responses. Neither builds a reason to be quoted.
+
+We treat that evidence as the raw material of differentiation. If customers in your category keep asking a question nobody has answered well, answering it is your point of difference. The comparison of SOMIN with other strategy tools (https://somin.ai/somin-vs-strategy-tools/) explains why conversation-led evidence differs from survey or keyword data.
+
+## A differentiation checklist for every page
+
+- What does this page say that the top five results do not?
+
+- Which piece of evidence here is ours alone?
+
+- Is there a claim a competitor would disagree with?
+
+- Does it use at least three phrases taken from how the audience speaks?
+
+- Is there a worked example?
+
+- Does it say when this advice does not apply?
+
+If a page fails most of these, it may still rank for a while. It is unlikely to be the source an assistant chooses to name.
+
+## Definitions
+
+- Information gain: the new information a page adds beyond what similar pages already provide. The term is widely used in SEO; treat it as a useful idea rather than a confirmed ranking factor.
+
+- Consensus content: content that restates what is already widely published.
+
+- First-hand evidence: data, observations or experience gathered directly, rather than summarised from others.
+
+## Is AI-assisted content a problem in itself?
+
+No. Google has said it judges content on quality rather than how it was produced, and most good teams use AI somewhere in their process. The problem is unedited, ungrounded AI content: fluent, plausible and empty. Our sister consultancy GPT3 Marketing (https://gpt3.marketing/) has worked on brand voice systems since the GPT-3 API opened in 2020, and their position is one we share: AI is a drafting tool, and evidence plus human editing is what makes the result yours.
+
+The same holds for agentic workflows. If you automate research and drafting, the quality of what goes in decides the quality of what comes out. Agencies in the SAMY case study (https://somin.ai/agencies-samy-case-study/) illustrate how grounding work in audience evidence shapes the creative that follows.
+
+## How does this connect to SEO, AEO and GEO?
+
+Differentiation is not a separate workstream. It sits inside each of them. In search, distinct content is more likely to earn links and engagement. In answer engines, a distinct, clearly stated answer is easier to select. In generative engines, a distinct contribution is more likely to be named in a synthesis. Our overview of SEO, AEO and GEO (/blog/seo-aeo-geo-explained/) shows how the three fit together.
+
+## What should you do this quarter?
+
+Pick your ten most important pages. Run the checklist above on each. For every page that fails, find one piece of evidence only you hold, ideally from real audience conversation, and rebuild the page around it. Then track whether AI answers in your category start to mention you, using the method in measuring AI visibility (/blog/measuring-ai-visibility/).
+
+A useful exercise: ask an AI assistant to write your next article before you do. Whatever it produces is the consensus. Your job is to write the version it could not, because it lacks your evidence and your audience's voice.
+
+You do not stand out by shouting louder or publishing more. You stand out by knowing something about your audience that others have not bothered to learn, and saying it plainly.
+
+
+# SEO, AEO and GEO explained: one programme, three surfaces
+URL: https://snmrush.com/blog/seo-aeo-geo-explained/ · Published 2026-07-20
+
+SEO (search engine optimisation) helps pages rank in search results. AEO (answer engine optimisation) helps content become the direct answer to a question in search features and assistants. GEO (generative engine optimisation) helps brands get cited and described accurately in AI-generated answers. They overlap heavily and work best planned as one programme.
+
+## What is SEO, and is it still the foundation?
+
+SEO is the practice of making pages discoverable, understandable and preferable to search engines: crawlability, indexing, relevance, quality, links and user experience. It remains the foundation for a simple reason. Many AI answer experiences ground their responses in web search. Google says its AI Overviews and AI Mode rely on its core ranking systems, and assistants such as ChatGPT search and Perplexity retrieve web results before answering. If you cannot be found in search, you are harder to find everywhere.
+
+## What is AEO?
+
+Answer engine optimisation is about being selected as the answer to a specific question. It grew out of featured snippets and voice search, and now extends to AI assistants. AEO is mostly about form and clarity: a direct answer near the top of the page, question-style headings, concise definitions, lists and FAQs, all of which make your content easy to extract. Our guide to answer-first writing (/blog/answer-first-writing-for-ai-citations/) covers the craft.
+
+## What is GEO?
+
+Generative engine optimisation is the newest term and the least settled. It refers to improving how often and how accurately generative AI systems mention, cite and describe your brand. The term was popularised by academic research in 2023 that tested how content changes, such as adding citations, statistics and quotations, affected visibility in generative answers. The field is young, engines change often, and claims about precise GEO "ranking factors" should be treated with scepticism.
+
+In practice GEO adds three emphases to SEO and AEO: entity clarity (machines know exactly who you are), third-party mentions (others describe you consistently), and measurement across AI engines rather than one results page.
+
+## Definitions at a glance
+
+- SEO: rank pages in search results. Measured by rankings, impressions, clicks.
+
+- AEO: be the direct answer to a question. Measured by featured answers and answer selection.
+
+- GEO: be cited and accurately described in AI-generated answers. Measured by presence, citation and accuracy across AI engines.
+
+- AI Overviews: Google's AI-generated summaries shown above or within search results.
+
+## Where do they overlap, and where do they differ?
+
+The overlap is large. Clear, useful, well-structured content from a trustworthy, well-known source helps all three. The differences are in emphasis:
+
+- SEO cares most about the page and its links.
+
+- AEO cares most about the passage and its clarity.
+
+- GEO cares most about the brand and how it is described across the web.
+
+That is why we named our agency after three surfaces rather than three acronyms. SNMRush stands for Search, Neural answers and Mentions. Search is the results page. Neural answers are what AI assistants write. Mentions are what others say about you, which both of the first two lean on.
+
+## How do you plan them as one programme?
+
+A sequence we use with clients:
+
+- Listen. Find the questions and tensions your audience voices. We use SOMIN, an AI audience-research platform, as our technology partner here; the SOMIN for agencies (https://somin.ai/somin-for-agencies/) page explains how agencies apply it.
+
+- Baseline. Measure rankings and AI presence for those questions.
+
+- Fix foundations. Crawlability, indexing, structured data (/blog/structured-data-for-ai-search/), entity consistency.
+
+- Build answers. One clear page per important question, answer-first, with real evidence.
+
+- Earn mentions. Credible independent descriptions in the sources AI engines cite in your category.
+
+- Measure and repeat. Monthly, against the baseline.
+
+## Do you need separate teams for each?
+
+Rarely. Splitting them creates duplicated pages and conflicting priorities. The skills differ slightly: technical SEO, editorial clarity and digital PR, but the plan should be one. Paid media and organic visibility should talk to each other too; our sister app Trafix (https://trafix.app/) focuses on true profitability in paid traffic, and the same discipline of tying visibility to revenue applies to organic and AI channels.
+
+## What about the businesses changing fastest?
+
+Categories where buyers research heavily before purchase, such as B2B software, finance, health, travel and education, are seeing the biggest shift towards AI-assisted research. For these, a combined SEO, AEO and GEO programme is no longer optional. For a view of how strategy work grounded in audience evidence plays out for a brand, see the Viva School case study (https://somin.ai/brands-viva-school-case-study/).
+
+## What does a combined programme look like in the first 90 days?
+
+Month one is listening and baseline: a question map, a prompt panel and a technical audit. Month two is foundations and the first set of rewritten or new answer pages, starting with the questions closest to a buying decision. Month three is mention work and the first measured readout against the baseline. None of this is exotic. The difference is that every step serves the same list of real audience questions, so search, answers and mentions reinforce each other instead of competing for budget.
+
+A short checklist to tell whether your current work is joined up: do your SEO targets, your FAQ content and your PR topics come from the same question list? Does one report show rankings and AI presence side by side? If not, start there.
+
+The acronyms will keep multiplying. The underlying job will not: understand what your audience asks, answer it better than anyone, make sure machines understand who you are, and give others good reason to mention you.
+
+
+# AI Overviews and the changing click: what to do about it
+URL: https://snmrush.com/blog/ai-overviews-and-the-changing-click/ · Published 2026-07-06
+
+Google AI Overviews and AI Mode answer many questions directly on the results page, so some searches that once produced a click now end there. Informational queries are most affected. To stay visible, become a cited source in the overview, target questions that need depth or a decision, and measure value beyond raw clicks.
+
+## What are AI Overviews and AI Mode?
+
+AI Overviews are AI-generated summaries that appear at the top of some Google results, with links to the sources used. AI Mode is a separate conversational search experience where users ask follow-up questions and receive longer generated answers with links. Google has said both draw on its search index and core ranking systems, using techniques that issue several related searches to assemble an answer.
+
+For brands, the important point is that both experiences cite sources. Being one of those sources is the new version of ranking at the top.
+
+## Are clicks really falling?
+
+The honest answer is that it depends on the query, and the evidence is still mixed. Several independent studies and many publishers have reported lower click-through rates on queries that show an AI Overview, particularly simple informational ones. Google has argued that clicks from pages with AI Overviews are of higher quality. Both can be true. We would not quote a single universal figure, because the effect varies widely by category, query type and position.
+
+What is clear is the direction. Quick facts, definitions and simple how-tos are increasingly answered on the page. Questions that need comparison, judgement, local detail or a transaction still send people onward.
+
+## Which queries are most affected?
+
+- Most affected: definitions, simple facts, short how-tos, general explainers.
+
+- Moderately affected: comparisons and "best" lists, where overviews summarise but users often click to verify.
+
+- Least affected: branded searches, transactional queries, local intent, and questions that depend on personal circumstances.
+
+## How do you get cited in AI Overviews?
+
+Google has said there are no special requirements beyond being indexed and eligible to show a snippet, and that the same SEO best practices apply. Within that, the factors we focus on at SNMRush are:
+
+- Rank well for the underlying and related queries, since overviews draw on multiple searches.
+
+- Answer clearly in a self-contained passage, as described in our guide to answer-first writing (/blog/answer-first-writing-for-ai-citations/).
+
+- Cover the follow-up questions on the same page or tightly linked pages.
+
+- Add something the consensus lacks: evidence, an example, a nuance.
+
+- Keep snippets allowed. Restrictive nosnippet settings can also limit use in AI features.
+
+## Definitions
+
+- Zero-click search: a search that ends without a click to any website.
+
+- Query fan-out: Google's description of issuing several related searches behind the scenes to build an AI answer.
+
+- Cited source: a page linked within an AI Overview or AI Mode answer.
+
+## Which questions should you prioritise now?
+
+Move effort towards questions that still reward a visit, and towards questions where being cited builds the brand even without a click. That means less effort on generic definitions you cannot own, and more on the specific, tension-laden questions your buyers ask before a decision.
+
+Finding those questions is a research job. SNMRush uses SOMIN, an AI audience-research platform, to surface what people actually ask and worry about in real social conversation, with each theme linked to the posts behind it. The SOMIN strategy (https://somin.ai/somin-strategy/) overview describes how that research feeds planning. Our article on finding the questions your audience asks (/blog/finding-the-questions-your-audience-asks/) sets out the process.
+
+## How should you measure success now?
+
+If clicks are a shrinking share of value, report more than clicks. Track impressions and positions in Search Console, citations in AI Overviews from a fixed prompt panel, branded search growth, direct traffic, and enquiries that mention finding you through search or an assistant. For a way to frame this for leadership, the forward-looking AI strategy work at our sister studio GPT5 Marketing (https://gpt5.marketing/) is useful: they help CMOs redesign workflows around reasoning models, and measurement is part of that redesign.
+
+This is also a good moment to talk to peers. Many marketers are working through the same uncertainty, and communities like Marketing Mondays (https://mondays.marketing/) in Singapore discuss exactly these shifts, one real signal at a time.
+
+## What is the long-term view?
+
+Search is turning from a list of links into a conversation. In that conversation, the brands that do well will be those that answered the audience's real questions clearly, earned a reputation others repeat, and were easy for machines to understand. The Exostride case study (https://somin.ai/brands-exostride-case-study/) shows how audience evidence can shape what a brand says; in the answer era, that is also what decides whether it is quoted.
+
+## What should you change on existing pages?
+
+- Move the answer up. If the direct answer sits below an introduction, swap them.
+- Add the follow-ups. List the next three questions a reader asks and answer them on the page.
+- Make the click worth it. Offer what a summary cannot: a calculator, a worked example, a template, local detail or a clear next step.
+- Refresh facts. Out-of-date prices and dates are a reason for an engine, and a reader, to prefer someone else.These changes help in classic search as much as in AI features, which is the point: you are not choosing between surfaces.
+
+A final caution: avoid redesigning your whole content strategy around one month of traffic data. Compare like-for-like periods, separate branded from unbranded queries, and look at the specific pages that lost clicks before drawing conclusions. Often the losses are concentrated in a handful of definitional pages, while decision-stage pages hold steady.
+
+Fewer clicks is a real change. Invisibility is the bigger risk. Plan for both.
