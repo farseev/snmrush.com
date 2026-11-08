@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>llms.txt：它能做什麼、不能做什麼，以及值不值得做</title>
+<meta name="description" content="llms.txt 實用指南：這個提案中的檔案是什麼、哪些 AI 工具會讀取它、如何撰寫，以及為何它無法取代優質內容。">
+<link rel="canonical" href="https://snmrush.com/zh-hant/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="en-SG" href="https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snmrush.com/zh-hans/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snmrush.com/zh-hant/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="pt" href="https://snmrush.com/pt/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="x-default" href="https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0F3D2E">
+<meta property="og:site_name" content="SNMRush">
+<meta property="og:type" content="website">
+<meta property="og:title" content="llms.txt：它能做什麼、不能做什麼，以及值不值得做">
+<meta property="og:description" content="llms.txt 是一個提案中的純文字 Markdown 檔案，放在網站根目錄，為大型語言模型提供網站的簡短精選摘要，以及最有用頁面的連結。">
+<meta property="og:url" content="https://snmrush.com/zh-hant/blog/llms-txt-what-it-does-and-does-not-do/">
+<meta property="og:image" content="https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="llms.txt：它能做什麼、不能做什麼，以及值不值得做｜SNMRush">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="llms.txt：它能做什麼、不能做什麼，以及值不值得做">
+<meta name="twitter:description" content="llms.txt 是一個提案中的純文字 Markdown 檔案，放在網站根目錄，為大型語言模型提供網站的簡短精選摘要，以及最有用頁面的連結。">
+<meta name="twitter:image" content="https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg">
+<meta name="twitter:image:alt" content="llms.txt：它能做什麼、不能做什麼，以及值不值得做｜SNMRush">
+<meta name="application-name" content="SNMRush"><meta name="apple-mobile-web-app-title" content="SNMRush">
+<meta property="article:author" content="SNMRush"><meta property="article:published_time" content="2026-10-05"><meta property="article:section" content="技術 GEO"><meta name="keywords" content="llms.txt, generative engine optimisation, AI crawlers, GEO, technical SEO">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="SNMRush 部落格" href="https://snmrush.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Outfit','Noto Sans TC',system-ui,sans-serif;--fb:'Inter','Noto Sans TC',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H27LTRN2V2"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H27LTRN2V2');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"llms.txt：它能做什麼、不能做什麼，以及值不值得做","description":"llms.txt 實用指南：這個提案中的檔案是什麼、哪些 AI 工具會讀取它、如何撰寫，以及為何它無法取代優質內容。","datePublished":"2026-10-05","dateModified":"2026-10-05","image":["https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg","https://snmrush.com/assets/img/a01.webp"],"url":"https://snmrush.com/zh-hant/blog/llms-txt-what-it-does-and-does-not-do/","mainEntityOfPage":"https://snmrush.com/zh-hant/blog/llms-txt-what-it-does-and-does-not-do/","keywords":"llms.txt, generative engine optimisation, AI crawlers, GEO, technical SEO","articleSection":"技術 GEO","inLanguage":"zh-Hant","wordCount":1068,"author":{"@type":"Organization","name":"SNMRush editorial team","url":"https://snmrush.com/"},"publisher":{"@id":"https://snmrush.com/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SNMRush","item":"https://snmrush.com/zh-hant/"},{"@type":"ListItem","position":2,"name":"部落格","item":"https://snmrush.com/zh-hant/blog/"},{"@type":"ListItem","position":3,"name":"llms.txt：它能做什麼、不能做什麼，以及值不值得做","item":"https://snmrush.com/zh-hant/blog/llms-txt-what-it-does-and-does-not-do/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"AI 搜尋能見度一定需要 llms.txt 嗎？","acceptedAnswer":{"@type":"Answer","text":"不需要。它是選擇性的提案，沒有任何主要 AI 搜尋引擎證實它是引用或排名訊號。可檢索性、優質內容與可信的提及重要得多。"}},{"@type":"Question","name":"llms.txt 會封鎖 AI 爬蟲嗎？","acceptedAnswer":{"@type":"Answer","text":"不會。llms.txt 是一份閱讀指南。若要允許或封鎖特定 AI 爬蟲，請針對其公開的使用者代理設定 robots.txt 規則。"}},{"@type":"Question","name":"llms.txt 應該放在哪裡？","acceptedAnswer":{"@type":"Answer","text":"放在您網域的根目錄，例如 https://example.com/llms.txt，以 Markdown 撰寫，包含一個 H1、一段簡短摘要與連結清單。"}}]},{"@type":"Organization","@id":"https://snmrush.com/#org","name":"SNMRush","url":"https://snmrush.com/","logo":"https://snmrush.com/brand/logo.svg","email":"ask@snmrush.com","description":"SNMRush (said \"S-N-M rush\") is an SEO, AEO and GEO agency. The name stands for Search, Neural answers and Mentions: we help brands rank in search results, get cited in AI answers from ChatGPT, Gemini, Perplexity and Google AI Overviews, and earn brand mentions. SOMIN, an AI audience-research platform, is our technology partner for finding the real questions audiences ask.","slogan":"Search, Neural answers, Mentions. One rush.","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@snmrush.com","contactType":"sales"},"knowsAbout":["AEO","AI Mode","AI Overviews","AI citations","AI content","AI crawlers","AI search","AI visibility","GEO","GEO measurement","Google search","JSON-LD","SEO","answer engine optimisation","answer-first writing","audience research","brand differentiation","brand entity","brand mentions","content strategy","content structure","conversational search","digital PR","entity SEO","featured snippets"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"SNMRush"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="SNMRush 首頁"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="SNMRush 標誌"><rect x="4" y="24" width="7" height="12" rx="1.5" fill="#0F3D2E" opacity=".55"/><rect x="15" y="16" width="7" height="20" rx="1.5" fill="#0F3D2E" opacity=".8"/><rect x="26" y="8" width="7" height="28" rx="1.5" fill="#0F3D2E"/><circle cx="29.5" cy="3.8" r="3.2" fill="#F5D90A" stroke="#0F3D2E" stroke-width="1"/><text x="50" y="28" font-family="'Outfit', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#0F3D2E">SNM</tspan><tspan fill="#1F7A55">Rush</tspan></text></svg></a>
+<nav aria-label="主選單"><a href="../../index.html#work">案例</a><a href="../../index.html#services">我們的工作</a><a href="../index.html">洞察</a><a href="../../index.html#faq">常見問題</a><a href="../../../brand/index.html">品牌</a><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request">取得 AI 能見度稽核</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="語言: 繁體中文"><span>繁中</span></summary><ul><li><a href="../../../blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="index.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a></li><li><a href="../../../pt/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="pt" lang="pt">Português</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="導覽路徑"><a href="../../index.html">SNMRush</a> / <a href="../index.html">部落格</a> / 技術 GEO</nav>
+<h1 style="margin-top:18px">llms.txt：它能做什麼、不能做什麼，以及值不值得做</h1><p class="meta">2026 年 10 月 5 日 · 閱讀時間 6 分鐘 · SNMRush 編輯團隊 · <a href="#faq">常見問題</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a01.webp" alt="一座黃色燈塔將光芒灑向由層疊卡片構成的綠色大地，宛如一張給 AI 爬蟲的地圖" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">llms.txt 是一個提案中的純文字 Markdown 檔案，放在網站根目錄，為大型語言模型提供網站的簡短精選摘要，以及最有用頁面的連結。加入它的成本很低，對會讀取它的 AI 工具也可能有幫助，但目前沒有任何主要 AI 搜尋引擎證實它是排名或引用訊號。</p>
+<h2>llms.txt 到底是什麼？</h2>
+<p>概念很簡單。網頁是為瀏覽器打造的：導覽列、Cookie 橫幅、指令碼、頁尾。一個試圖理解您業務的語言模型，必須在這一切之中翻找。2024 年發表的 llms.txt 提案，建議在 <strong>/llms.txt</strong> 放置一個以 Markdown 撰寫的單一檔案，實際上就是在說「這是我們的身分，這些是值得閱讀的頁面」。有些版本還會指向關鍵頁面的乾淨 Markdown 副本；另一個配套概念 llms-full.txt，則將文件的完整內容打包成單一檔案。</p>
+<p>對它的地位必須說得精確。llms.txt 是社群提案，而非網路標準，也與 robots.txt 不同。robots.txt 告訴爬蟲哪些內容可以擷取、哪些不行。llms.txt 不授予也不封鎖任何東西；它是一份閱讀指南。</p>
+<h2>ChatGPT、Gemini、Perplexity 或 Google AI Overviews 會使用它嗎？</h2>
+<p>這正是大多數相關文章說得太過頭的地方，因此我們會謹慎說明。截至撰文時，沒有任何主要的 AI 搜尋體驗公開表示 llms.txt 會影響其引用的來源。Google 表示其 AI 功能仰賴一般的搜尋索引與排名系統，其代表也對這個檔案抱持懷疑態度。部分網站擁有者的伺服器紀錄顯示 llms.txt 偶爾會被擷取，但被擷取不代表它被用於答案中。</p>
+<p>llms.txt 明確具有價值的地方，是在被指示使用它的工具中：開發者助理、程式設計代理與文件平台會載入專案的 llms.txt，讓模型能依據準確、最新的文件運作。如果您的受眾包括開發者，光是這一點就值得投入。</p>
+<blockquote>SNMRush 的觀點是：將 llms.txt 視為良好的網站整理習慣，而不是提升能見度的槓桿。它只需要一個小時，能迫使您把事情說清楚，但它救不了內容單薄的問題。</blockquote>
+<h2>如何撰寫好的 llms.txt？</h2>
+<p>提案中的結構很簡短。一個以網站或品牌名稱為內容的 H1、一段放在引言區塊中的摘要、選擇性的備註，接著是 H2 段落，內含連結清單，每個連結附一行描述。名為「Optional」的段落可放置在情境有限時模型可略過的連結。</p>
+<p>以一家虛構的會計軟體公司為例，大綱可能如下：</p>
+<ul>
+<li><strong>標題：</strong>品牌名稱，完全依照您希望被稱呼的方式。</li>
+<li><strong>摘要：</strong>用兩句話說明產品是什麼、服務對象是誰、在哪裡營運。把它寫成您希望 AI 助理給出的答案。</li>
+<li><strong>核心頁面：</strong>產品概覽、價格、三篇最重要的說明文章、安全性與法規遵循。</li>
+<li><strong>解說內容：</strong>回答受眾最常見問題的指南。</li>
+<li><strong>Optional：</strong>公司沿革、新聞、徵才。</li>
+</ul>
+<p>摘要段落是最重要的部分，它與我們建議每個頁面都要有的答案區塊是同一種紀律。如果您無法用兩句淺白、符合事實的句子描述您的公司，AI 系統也會很難做到。我們的<a href="../answer-first-writing-for-ai-citations/index.html">答案優先寫作</a>指南深入介紹了這項技巧。</p>
+<h2>應該納入哪些頁面？</h2>
+<p>選擇能回答真實問題的頁面，而不是您最想推銷的頁面。這正是受眾研究發揮價值之處。在 SNMRush，我們使用 AI 受眾研究平台 SOMIN，查看人們在公開對話中針對某個品類提出哪些問題與張力，再檢查網站是否為每一個問題都準備了清楚的頁面。回答這些問題的頁面會放進 llms.txt；缺口則列入內容計畫。若想了解這些研究如何更廣泛地融入策略，<a href="https://somin.ai/somin-strategy/" rel="noopener">SOMIN 策略</a>概覽說明了這套做法。</p>
+<p>簡短的挑選檢查清單：</p>
+<ol>
+<li>頁面是否在第一段就清楚回答一個問題？</li>
+<li>內容是否為最新，價格、功能與日期是否正確？</li>
+<li>是否無需登入、指令碼或插頁廣告即可存取？</li>
+<li>如果 AI 助理逐字引用它，您會滿意嗎？</li>
+<li>它是否為網站上針對該問題的唯一最佳頁面，而不是五個內容重疊的頁面之一？</li>
+</ol>
+<h2>定義：llms.txt 與相關檔案</h2>
+<ul>
+<li><strong>robots.txt：</strong>一項行之有年的標準，告訴爬蟲可以擷取哪些路徑。您可以在此允許或封鎖 GPTBot 或 Google-Extended 等 AI 爬蟲。</li>
+<li><strong>sitemap.xml：</strong>一份機器可讀的網址清單，供搜尋引擎探索。</li>
+<li><strong>llms.txt：</strong>一份提案中、人類可讀的 Markdown 指南，為語言模型指出您最有用的內容。</li>
+<li><strong>llms-full.txt：</strong>一個提案中的配套檔案，包含完整內容，主要用於技術文件。</li>
+</ul>
+<h2>什麼比 llms.txt 更重要？</h2>
+<p>如果您只有一週時間，請先把時間花在其他地方。大多數會瀏覽網路的 AI 答案引擎都以搜尋索引為依據，因此可檢索性、索引與排名仍是基礎。其次是內容本身：直接的答案、具體的事實、誠實的比較。接著是<a href="../structured-data-for-ai-search/index.html">結構化資料</a>與一致的實體資訊，幫助機器理解您是誰。最後是可信第三方網站上的提及，這會影響 AI 助理如何描述您。</p>
+<p>這樣的順序，也是破除「單一檔案或標籤就能贏得 AI 能見度」這種想法的良方。我們的姊妹工作室 <a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing</a> 所探討的推理模型，越來越善於權衡來源；它們獎勵實質內容，也很難被欺騙。</p>
+<h2>如何確認它是否有效？</h2>
+<p>對成效歸因要保持謙虛。檢查伺服器紀錄中對 /llms.txt 的請求，並記下使用者代理。維持一組固定的提示詞，追蹤調整前後 AI 工具是否引用您，但要預期任何效果都會與您同時進行的其他工作混在一起。<a href="https://somin.ai/agencies-kpi-media-case-study/" rel="noopener">KPI Media 案例研究</a>中的代理商展示了以證據而非假設為決策基礎的價值，同樣的原則也適用於此：去衡量，而不是去假設。</p>
+<p>我們的結論很直接。如果您有技術文件、開發者受眾，或只是想為機器提供一份整齊的網站摘要，就加入 llms.txt。用心撰寫摘要段落。然後回到已知真正重要的工作：比任何人都更好地回答受眾真正提出的問題。</p>
+<p>如果您希望針對目前的設定聽聽第二意見，SNMRush 在每次 AI 能見度稽核中都包含 llms.txt 檢視，並一併檢查爬蟲存取、Schema 與引用追蹤。</p>
+<section id="faq" style="padding:40px 0 0"><h2>常見問題</h2><details><summary>AI 搜尋能見度一定需要 llms.txt 嗎？</summary><p>不需要。它是選擇性的提案，沒有任何主要 AI 搜尋引擎證實它是引用或排名訊號。可檢索性、優質內容與可信的提及重要得多。</p></details><details><summary>llms.txt 會封鎖 AI 爬蟲嗎？</summary><p>不會。llms.txt 是一份閱讀指南。若要允許或封鎖特定 AI 爬蟲，請針對其公開的使用者代理設定 robots.txt 規則。</p></details><details><summary>llms.txt 應該放在哪裡？</summary><p>放在您網域的根目錄，例如 https://example.com/llms.txt，以 Markdown 撰寫，包含一個 H1、一段簡短摘要與連結清單。</p></details></section>
+<div class="cta-box"><h2>取得 AI 能見度稽核</h2><p>SNMRush 是答案時代的能見度代理商。我們從受眾真正提出的問題出發，打造搜尋引擎會給予排名、AI 助理能夠引用的內容。</p><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request%20%28re%3A%20llms.txt%3A%20what%20it%20does%2C%20what%20it%20doesn%27t%2C%20and%20whether%20to%20bother%29">來信 ask@snmrush.com →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>延伸閱讀</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../structured-data-for-ai-search/index.html"><img src="../../../assets/img/a02-640.webp" alt="綠色地景上方由卡片與節點交織而成的黃色網格，象徵 Schema 標記" width="640" height="427" loading="lazy"><div class="b"><span class="tag">技術 SEO</span><h3>AI 搜尋的結構化資料：真正值得投入的 Schema</h3><p>哪些 schema.org 類型能幫助搜尋與 AI 引擎理解您的品牌、如何誠實地實作，以及結構化資料做不到的事。</p><div class="meta" style="margin-top:12px">2026 年 9 月 21 日 · 閱讀時間 6 分鐘</div></div></a><a class="post-card" href="../entity-building-for-brands/index.html"><img src="../../../assets/img/a03-640.webp" alt="綠色山谷中，一座黃色巨石以金色絲線連接漂浮的卡片與泡泡" width="640" height="427" loading="lazy"><div class="b"><span class="tag">GEO</span><h3>實體建立：如何讓 AI 引擎認識您是誰</h3><p>品牌如何成為搜尋與 AI 眼中清晰的實體：一致的事實、官方檔案、第三方來源，以及只有您能回答的問題。</p><div class="meta" style="margin-top:12px">2026 年 9 月 14 日 · 閱讀時間 7 分鐘</div></div></a><a class="post-card" href="../earning-citations-and-brand-mentions/index.html"><img src="../../../assets/img/a04-640.webp" alt="答案泡泡如燈籠般在綠色山坡上升起，有些發出黃光，並將光束回傳至源頭" width="640" height="427" loading="lazy"><div class="b"><span class="tag">品牌提及</span><h3>在 AI 答案中贏得引用與品牌提及</h3><p>為什麼第三方提及會影響 AI 助理如何描述品牌，以及一套不靠垃圾手法、務實又誠實的爭取方法。</p><div class="meta" style="margin-top:12px">2026 年 9 月 7 日 · 閱讀時間 7 分鐘</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="SNMRush 標誌"><rect x="4" y="24" width="7" height="12" rx="1.5" fill="#F5D90A" opacity=".55"/><rect x="15" y="16" width="7" height="20" rx="1.5" fill="#F5D90A" opacity=".8"/><rect x="26" y="8" width="7" height="28" rx="1.5" fill="#F5D90A"/><circle cx="29.5" cy="3.8" r="3.2" fill="#F5D90A" stroke="#0F3D2E" stroke-width="1"/><text x="50" y="28" font-family="'Outfit', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">SNM</tspan><tspan fill="#F5D90A">Rush</tspan></text></svg></div><p style="max-width:30em">從真實受眾問題出發的能見度代理商，讓品牌在答案時代取得排名、被引用並被提及。</p>
+<p class="partner">技術夥伴 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request">取得 AI 能見度稽核</a></p>
+<p>來信 <a href="mailto:ask@snmrush.com">ask@snmrush.com</a></p></div>
+<div><h4>SNMRush</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">我們的工作</a></li><li><a href="../index.html">洞察</a></li><li><a href="../../index.html#about">關於我們</a></li><li><a href="../../index.html#faq">常見問題</a></li><li><a href="../../../brand/index.html">品牌規範</a></li><li><a href="https://snmrush.com/feed.xml">RSS</a></li></ul></div>
+<div><h4>由 SOMIN 提供技術支援</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">案例研究</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">品牌方案</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">代理商方案</a></li></ul></div>
+</div>
+<h4>生態系</h4>
+<nav class="network" aria-label="姊妹公司"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>每週一，解讀一個真實訊號</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>可驗證的全天候聆聽</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>以利潤衡量的付費流量</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>代理執行，人類指揮。</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>六年的 AI 內容功力</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>為推理模型重新設計的行銷</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>為東南亞解讀消費者心理與文化</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 SNMRush · snmrush.com · 新加坡。SNMRush 與 Semrush 無任何關聯。 </p>
+</div></footer>
+</body></html>

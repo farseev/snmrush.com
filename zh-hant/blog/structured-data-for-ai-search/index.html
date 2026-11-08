@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 搜尋的結構化資料：真正值得投入的 Schema</title>
+<meta name="description" content="哪些 schema.org 類型能幫助搜尋與 AI 引擎理解您的品牌、如何誠實地實作，以及結構化資料做不到的事。">
+<link rel="canonical" href="https://snmrush.com/zh-hant/blog/structured-data-for-ai-search/">
+<link rel="alternate" hreflang="en-SG" href="https://snmrush.com/blog/structured-data-for-ai-search/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snmrush.com/zh-hans/blog/structured-data-for-ai-search/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snmrush.com/zh-hant/blog/structured-data-for-ai-search/">
+<link rel="alternate" hreflang="pt" href="https://snmrush.com/pt/blog/structured-data-for-ai-search/">
+<link rel="alternate" hreflang="x-default" href="https://snmrush.com/blog/structured-data-for-ai-search/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0F3D2E">
+<meta property="og:site_name" content="SNMRush">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI 搜尋的結構化資料：真正值得投入的 Schema">
+<meta property="og:description" content="結構化資料是機器可讀的標記，通常是使用 schema.org 詞彙的 JSON-LD，用來陳述關於頁面及其背後組織的事實。">
+<meta property="og:url" content="https://snmrush.com/zh-hant/blog/structured-data-for-ai-search/">
+<meta property="og:image" content="https://snmrush.com/assets/img/og/structured-data-for-ai-search.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="AI 搜尋的結構化資料：真正值得投入的 Schema｜SNMRush">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI 搜尋的結構化資料：真正值得投入的 Schema">
+<meta name="twitter:description" content="結構化資料是機器可讀的標記，通常是使用 schema.org 詞彙的 JSON-LD，用來陳述關於頁面及其背後組織的事實。">
+<meta name="twitter:image" content="https://snmrush.com/assets/img/og/structured-data-for-ai-search.jpg">
+<meta name="twitter:image:alt" content="AI 搜尋的結構化資料：真正值得投入的 Schema｜SNMRush">
+<meta name="application-name" content="SNMRush"><meta name="apple-mobile-web-app-title" content="SNMRush">
+<meta property="article:author" content="SNMRush"><meta property="article:published_time" content="2026-09-21"><meta property="article:section" content="技術 SEO"><meta name="keywords" content="structured data, schema markup, JSON-LD, AI search, entity SEO">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="SNMRush 部落格" href="https://snmrush.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Outfit','Noto Sans TC',system-ui,sans-serif;--fb:'Inter','Noto Sans TC',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H27LTRN2V2"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H27LTRN2V2');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"AI 搜尋的結構化資料：真正值得投入的 Schema","description":"哪些 schema.org 類型能幫助搜尋與 AI 引擎理解您的品牌、如何誠實地實作，以及結構化資料做不到的事。","datePublished":"2026-09-21","dateModified":"2026-09-21","image":["https://snmrush.com/assets/img/og/structured-data-for-ai-search.jpg","https://snmrush.com/assets/img/a02.webp"],"url":"https://snmrush.com/zh-hant/blog/structured-data-for-ai-search/","mainEntityOfPage":"https://snmrush.com/zh-hant/blog/structured-data-for-ai-search/","keywords":"structured data, schema markup, JSON-LD, AI search, entity SEO","articleSection":"技術 SEO","inLanguage":"zh-Hant","wordCount":943,"author":{"@type":"Organization","name":"SNMRush editorial team","url":"https://snmrush.com/"},"publisher":{"@id":"https://snmrush.com/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SNMRush","item":"https://snmrush.com/zh-hant/"},{"@type":"ListItem","position":2,"name":"部落格","item":"https://snmrush.com/zh-hant/blog/"},{"@type":"ListItem","position":3,"name":"AI 搜尋的結構化資料：真正值得投入的 Schema","item":"https://snmrush.com/zh-hant/blog/structured-data-for-ai-search/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Schema 標記會讓 ChatGPT 引用我的網站嗎？","acceptedAnswer":{"@type":"Answer","text":"不會直接產生這種效果。沒有任何 AI 助理表示 Schema 是引用訊號。它能幫助搜尋系統理解您的頁面與實體，進而支撐許多 AI 答案所依賴的基礎。"}},{"@type":"Question","name":"FAQPage schema 還值得使用嗎？","acceptedAnswer":{"@type":"Answer","text":"值得，前提是用於真實可見的常見問題。Google 將常見問題複合式搜尋結果限制於特定網站，因此不要期待視覺功能，但這種標記仍然有效且具描述性。"}},{"@type":"Question","name":"結構化資料應該使用哪種格式？","acceptedAnswer":{"@type":"Answer","text":"使用 schema.org 詞彙的 JSON-LD。這是 Google 建議的格式，也最容易從 CMS 產生。"}}]},{"@type":"Organization","@id":"https://snmrush.com/#org","name":"SNMRush","url":"https://snmrush.com/","logo":"https://snmrush.com/brand/logo.svg","email":"ask@snmrush.com","description":"SNMRush (said \"S-N-M rush\") is an SEO, AEO and GEO agency. The name stands for Search, Neural answers and Mentions: we help brands rank in search results, get cited in AI answers from ChatGPT, Gemini, Perplexity and Google AI Overviews, and earn brand mentions. SOMIN, an AI audience-research platform, is our technology partner for finding the real questions audiences ask.","slogan":"Search, Neural answers, Mentions. One rush.","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@snmrush.com","contactType":"sales"},"knowsAbout":["AEO","AI Mode","AI Overviews","AI citations","AI content","AI crawlers","AI search","AI visibility","GEO","GEO measurement","Google search","JSON-LD","SEO","answer engine optimisation","answer-first writing","audience research","brand differentiation","brand entity","brand mentions","content strategy","content structure","conversational search","digital PR","entity SEO","featured snippets"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"SNMRush"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="SNMRush 首頁"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="SNMRush 標誌"><rect x="4" y="24" width="7" height="12" rx="1.5" fill="#0F3D2E" opacity=".55"/><rect x="15" y="16" width="7" height="20" rx="1.5" fill="#0F3D2E" opacity=".8"/><rect x="26" y="8" width="7" height="28" rx="1.5" fill="#0F3D2E"/><circle cx="29.5" cy="3.8" r="3.2" fill="#F5D90A" stroke="#0F3D2E" stroke-width="1"/><text x="50" y="28" font-family="'Outfit', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#0F3D2E">SNM</tspan><tspan fill="#1F7A55">Rush</tspan></text></svg></a>
+<nav aria-label="主選單"><a href="../../index.html#work">案例</a><a href="../../index.html#services">我們的工作</a><a href="../index.html">洞察</a><a href="../../index.html#faq">常見問題</a><a href="../../../brand/index.html">品牌</a><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request">取得 AI 能見度稽核</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="語言: 繁體中文"><span>繁中</span></summary><ul><li><a href="../../../blog/structured-data-for-ai-search/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/structured-data-for-ai-search/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="index.html" hreflang="zh-Hant" lang="zh-Hant" aria-current="page">繁體中文</a></li><li><a href="../../../pt/blog/structured-data-for-ai-search/index.html" hreflang="pt" lang="pt">Português</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="導覽路徑"><a href="../../index.html">SNMRush</a> / <a href="../index.html">部落格</a> / 技術 SEO</nav>
+<h1 style="margin-top:18px">AI 搜尋的結構化資料：真正值得投入的 Schema</h1><p class="meta">2026 年 9 月 21 日 · 閱讀時間 6 分鐘 · SNMRush 編輯團隊 · <a href="#faq">常見問題</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a02.webp" alt="綠色地景上方由卡片與節點交織而成的黃色網格，象徵 Schema 標記" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">結構化資料是機器可讀的標記，通常是使用 schema.org 詞彙的 JSON-LD，用來陳述關於頁面及其背後組織的事實。它能幫助搜尋引擎理解與呈現內容，並支援更清楚的實體理解，但它本身並不會讓 AI 工具引用您。只標記頁面上明確可見且屬實的內容。</p>
+<h2>當答案由 AI 撰寫時，結構化資料為什麼仍然重要？</h2>
+<p>因為大多數 AI 答案體驗都建立在搜尋系統之上。Google 表示，其 AI 功能使用與搜尋相同的索引與排名系統，而其他 AI 助理也經常以網路搜尋結果作為答案依據。任何能幫助搜尋引擎更明確理解您頁面的做法，都有助於強化這些答案所依賴的基礎。</p>
+<p>結構化資料還有一項較低調的作用：將您的頁面與一個清楚的實體連結。當您的 Organization 標記一致地註明品牌、標誌、官方檔案與聯絡方式時，就能降低系統將您與名稱相似的公司混淆的機會。對 SNMRush 這樣需要與名稱相近的軟體供應商明確區隔的品牌而言，這種消歧義並非表面功夫。</p>
+<p>它做不到的，是說服語言模型您的內容比實際更好。各引擎已明白表示，標記不是排名捷徑。請把它想成貼標籤，而不是說服。</p>
+<h2>哪些 Schema 類型值得實作？</h2>
+<p>對大多數品牌而言，一小組類型就足以涵蓋所需：</p>
+<ul>
+<li>首頁或「關於我們」頁面上的 <strong>Organization</strong>：法定名稱與品牌名稱、標誌、網址、指向官方檔案的 <em>sameAs</em> 連結、聯絡方式。</li>
+<li>附有網站名稱的 <strong>WebSite</strong>，讓搜尋引擎在結果中顯示正確的名稱。</li>
+<li>編輯內容上的 <strong>Article</strong> 或 <strong>BlogPosting</strong>：標題、作者、發布與修改日期、發布者。</li>
+<li>具名作者的 <strong>Person</strong>，附上其個人檔案連結，以支援編輯與引擎都在尋找的經驗與專業訊號。</li>
+<li><strong>Product</strong> 或 <strong>Service</strong>，在頁面上確實公布優惠與價格時一併標記。</li>
+<li>用於表達網站階層的 <strong>BreadcrumbList</strong>。</li>
+<li><strong>FAQPage</strong>，需謹慎使用。Google 在 2023 年將常見問題複合式搜尋結果限縮至少數權威網站，因此不要期待視覺呈現效果，但標記真實可見的常見問題仍然有效且無害。</li>
+</ul>
+<h2>如何實作而不製造問題？</h2>
+<p>SNMRush 每次稽核都會使用的檢查清單：</p>
+<ol>
+<li>在頁面的 head 或 body 中<strong>使用 JSON-LD</strong>。這是 Google 建議的格式，也能讓標記與版面分離。</li>
+<li><strong>與可見頁面一致。</strong>標記中的每項事實都必須出現在頁面上。隱藏的聲明可能招致人工判決處罰，並侵蝕信任。</li>
+<li><strong>維持單一資料來源。</strong>從 CMS 欄位產生標記，讓價格、日期與名稱永遠不會走樣。</li>
+<li><strong>以 @id 連結實體。</strong>為您的 Organization 指定穩定的識別碼，並在文章與產品中引用它，讓整個圖譜串連起來。</li>
+<li><strong>驗證。</strong>每次範本變更後，用複合式搜尋結果測試與 Schema Markup Validator 檢查頁面。</li>
+<li><strong>誠實更新 dateModified。</strong>在內容有實質變更時才修改，而不是用來假裝內容很新。</li>
+</ol>
+<h2>名詞定義</h2>
+<ul>
+<li><strong>Schema.org：</strong>主要搜尋引擎共同支援的類型與屬性詞彙。</li>
+<li><strong>JSON-LD：</strong>一種用於連結資料的 JSON 格式，嵌入在 script 標籤中。</li>
+<li><strong>複合式搜尋結果：</strong>強化的搜尋列表，例如評論星等或導覽標記，結構化資料可讓頁面符合呈現資格。</li>
+<li><strong>實體：</strong>可被唯一識別的事物，例如公司或人物，搜尋系統會試圖在整個網路上辨識它。</li>
+</ul>
+<h2>好的 Organization 區塊包含什麼？</h2>
+<p>想想 AI 助理可能被問到哪些關於您的問題。這是什麼公司？總部在哪裡？做什麼？它和另一家公司是同一家嗎？您的 Organization 標記應該乾淨地回答其中屬於事實的部分：名稱、別名（若名稱的唸法常造成混淆，也包括唸法）、與「關於我們」頁面一致的一句話描述、標誌、創立日期（若有公開）以及指向 LinkedIn、YouTube 與其他官方檔案的 <em>sameAs</em> 連結。我們關於<a href="../entity-building-for-brands/index.html">實體建立</a>的文章進一步說明這些訊號如何與第三方來源結合。</p>
+<h2>受眾研究在結構化資料中扮演什麼角色？</h2>
+<p>比您想像的更重要。您所標記的描述與常見問題，應該反映受眾使用的語言，而不是內部術語。如果顧客把您的產品稱為「聆聽工具」，而您稱它為「全通路對話智慧套件」，您的標記在技術上有效，實際上卻無人看見。我們使用 AI 受眾研究平台 SOMIN，檢查人們談論某個品類時實際使用的字詞與問題，讓我們所標記的內容與人們的提問一致。<a href="https://somin.ai/somin-for-brands/" rel="noopener">SOMIN 品牌方案</a>頁面說明了這些研究如何為企業內部團隊所用。</p>
+<p>同樣的原則也出現在相關領域。我們在 <a href="https://agentc.marketing/" rel="noopener">AgentC</a> 的夥伴在研究與內容工作流程中運行 AI 代理，他們的經驗與我們在 Schema 上看到的相同：只有在輸入乾淨且真實時，自動化才有幫助。</p>
+<h2>如何知道它是否有幫助？</h2>
+<p>在傳統搜尋方面，Search Console 會回報偵測到哪些複合式搜尋結果類型、是否有錯誤，您也可以比較頁面調整前後的點閱率。在 AI 能見度方面，歸因更困難，您應該誠實面對這一點。追蹤一組固定的提示詞，留意 AI 助理是否準確描述您的品牌，並觀察事實錯誤是否隨時間減少。像 <a href="https://somin.ai/brands-fujifilm-case-study/" rel="noopener">Fujifilm 案例研究</a>中的品牌，說明了清楚且以證據為本的品牌形象在各管道中為何重要；標記只是維持這種形象一致的一小部分。</p>
+<p>結構化資料並不光鮮，而這正是重點。它是貨架上的標籤。它無法讓弱勢產品熱賣，卻能避免強勢產品被放錯位置。一次做對、將它自動化、加以驗證，然後專注於能贏得引用的內容。</p>
+<section id="faq" style="padding:40px 0 0"><h2>常見問題</h2><details><summary>Schema 標記會讓 ChatGPT 引用我的網站嗎？</summary><p>不會直接產生這種效果。沒有任何 AI 助理表示 Schema 是引用訊號。它能幫助搜尋系統理解您的頁面與實體，進而支撐許多 AI 答案所依賴的基礎。</p></details><details><summary>FAQPage schema 還值得使用嗎？</summary><p>值得，前提是用於真實可見的常見問題。Google 將常見問題複合式搜尋結果限制於特定網站，因此不要期待視覺功能，但這種標記仍然有效且具描述性。</p></details><details><summary>結構化資料應該使用哪種格式？</summary><p>使用 schema.org 詞彙的 JSON-LD。這是 Google 建議的格式，也最容易從 CMS 產生。</p></details></section>
+<div class="cta-box"><h2>取得 AI 能見度稽核</h2><p>SNMRush 是答案時代的能見度代理商。我們從受眾真正提出的問題出發，打造搜尋引擎會給予排名、AI 助理能夠引用的內容。</p><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request%20%28re%3A%20Structured%20data%20for%20AI%20search%3A%20the%20schema%20that%20earns%20its%20keep%29">來信 ask@snmrush.com →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>延伸閱讀</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../llms-txt-what-it-does-and-does-not-do/index.html"><img src="../../../assets/img/a01-640.webp" alt="一座黃色燈塔將光芒灑向由層疊卡片構成的綠色大地，宛如一張給 AI 爬蟲的地圖" width="640" height="427" loading="lazy"><div class="b"><span class="tag">技術 GEO</span><h3>llms.txt：它能做什麼、不能做什麼，以及值不值得做</h3><p>llms.txt 實用指南：這個提案中的檔案是什麼、哪些 AI 工具會讀取它、如何撰寫，以及為何它無法取代優質內容。</p><div class="meta" style="margin-top:12px">2026 年 10 月 5 日 · 閱讀時間 6 分鐘</div></div></a><a class="post-card" href="../entity-building-for-brands/index.html"><img src="../../../assets/img/a03-640.webp" alt="綠色山谷中，一座黃色巨石以金色絲線連接漂浮的卡片與泡泡" width="640" height="427" loading="lazy"><div class="b"><span class="tag">GEO</span><h3>實體建立：如何讓 AI 引擎認識您是誰</h3><p>品牌如何成為搜尋與 AI 眼中清晰的實體：一致的事實、官方檔案、第三方來源，以及只有您能回答的問題。</p><div class="meta" style="margin-top:12px">2026 年 9 月 14 日 · 閱讀時間 7 分鐘</div></div></a><a class="post-card" href="../earning-citations-and-brand-mentions/index.html"><img src="../../../assets/img/a04-640.webp" alt="答案泡泡如燈籠般在綠色山坡上升起，有些發出黃光，並將光束回傳至源頭" width="640" height="427" loading="lazy"><div class="b"><span class="tag">品牌提及</span><h3>在 AI 答案中贏得引用與品牌提及</h3><p>為什麼第三方提及會影響 AI 助理如何描述品牌，以及一套不靠垃圾手法、務實又誠實的爭取方法。</p><div class="meta" style="margin-top:12px">2026 年 9 月 7 日 · 閱讀時間 7 分鐘</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="SNMRush 標誌"><rect x="4" y="24" width="7" height="12" rx="1.5" fill="#F5D90A" opacity=".55"/><rect x="15" y="16" width="7" height="20" rx="1.5" fill="#F5D90A" opacity=".8"/><rect x="26" y="8" width="7" height="28" rx="1.5" fill="#F5D90A"/><circle cx="29.5" cy="3.8" r="3.2" fill="#F5D90A" stroke="#0F3D2E" stroke-width="1"/><text x="50" y="28" font-family="'Outfit', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">SNM</tspan><tspan fill="#F5D90A">Rush</tspan></text></svg></div><p style="max-width:30em">從真實受眾問題出發的能見度代理商，讓品牌在答案時代取得排名、被引用並被提及。</p>
+<p class="partner">技術夥伴 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request">取得 AI 能見度稽核</a></p>
+<p>來信 <a href="mailto:ask@snmrush.com">ask@snmrush.com</a></p></div>
+<div><h4>SNMRush</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">我們的工作</a></li><li><a href="../index.html">洞察</a></li><li><a href="../../index.html#about">關於我們</a></li><li><a href="../../index.html#faq">常見問題</a></li><li><a href="../../../brand/index.html">品牌規範</a></li><li><a href="https://snmrush.com/feed.xml">RSS</a></li></ul></div>
+<div><h4>由 SOMIN 提供技術支援</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">案例研究</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">品牌方案</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">代理商方案</a></li></ul></div>
+</div>
+<h4>生態系</h4>
+<nav class="network" aria-label="姊妹公司"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>每週一，解讀一個真實訊號</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>可驗證的全天候聆聽</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>以利潤衡量的付費流量</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>代理執行，人類指揮。</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>六年的 AI 內容功力</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>為推理模型重新設計的行銷</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>為東南亞解讀消費者心理與文化</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 SNMRush · snmrush.com · 新加坡。SNMRush 與 Semrush 無任何關聯。 </p>
+</div></footer>
+</body></html>
