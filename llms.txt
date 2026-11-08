@@ -42,6 +42,7 @@
 - [Tiếng Việt](https://snmrush.com/vi/) · [blog](https://snmrush.com/vi/blog/) (10 articles translated)
 - [Bahasa Indonesia](https://snmrush.com/id/) · [blog](https://snmrush.com/id/blog/) (10 articles translated)
 - [Bahasa Melayu](https://snmrush.com/ms/) · [blog](https://snmrush.com/ms/blog/) (10 articles translated)
+- [हिन्दी](https://snmrush.com/hi/) · [blog](https://snmrush.com/hi/blog/) (10 articles translated)
 - [Português](https://snmrush.com/pt/) · [blog](https://snmrush.com/pt/blog/) (10 articles translated)
 
 ## FAQ
