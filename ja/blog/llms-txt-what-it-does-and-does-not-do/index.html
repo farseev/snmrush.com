@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>llms.txt：できること、できないこと、導入すべきか</title>
+<meta name="description" content="llms.txtの実践ガイド。提案中のこのファイルとは何か、どのAIツールが読むのか、どう書くのか、そしてなぜ良いコンテンツの代わりにはならないのかを解説します。">
+<link rel="canonical" href="https://snmrush.com/ja/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="en-SG" href="https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snmrush.com/zh-hans/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snmrush.com/zh-hant/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="ja" href="https://snmrush.com/ja/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="pt" href="https://snmrush.com/pt/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="x-default" href="https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0F3D2E">
+<meta property="og:site_name" content="SNMRush">
+<meta property="og:type" content="website">
+<meta property="og:title" content="llms.txt：できること、できないこと、導入すべきか">
+<meta property="og:description" content="llms.txtは、ウェブサイトのルートに置く、提案段階のプレーンテキストのMarkdownファイルで、大規模言語モデルにサイトの簡潔な厳選された要約と、最も役立つページへのリンクを提供します。">
+<meta property="og:url" content="https://snmrush.com/ja/blog/llms-txt-what-it-does-and-does-not-do/">
+<meta property="og:image" content="https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="llms.txt：できること、できないこと、導入すべきか、SNMRush">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="llms.txt：できること、できないこと、導入すべきか">
+<meta name="twitter:description" content="llms.txtは、ウェブサイトのルートに置く、提案段階のプレーンテキストのMarkdownファイルで、大規模言語モデルにサイトの簡潔な厳選された要約と、最も役立つページへのリンクを提供します。">
+<meta name="twitter:image" content="https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg">
+<meta name="twitter:image:alt" content="llms.txt：できること、できないこと、導入すべきか、SNMRush">
+<meta name="application-name" content="SNMRush"><meta name="apple-mobile-web-app-title" content="SNMRush">
+<meta property="article:author" content="SNMRush"><meta property="article:published_time" content="2026-10-05"><meta property="article:section" content="テクニカルGEO"><meta name="keywords" content="llms.txt, generative engine optimisation, AI crawlers, GEO, technical SEO">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="SNMRushブログ" href="https://snmrush.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Outfit','Noto Sans JP',system-ui,sans-serif;--fb:'Inter','Noto Sans JP',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H27LTRN2V2"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H27LTRN2V2');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"llms.txt：できること、できないこと、導入すべきか","description":"llms.txtの実践ガイド。提案中のこのファイルとは何か、どのAIツールが読むのか、どう書くのか、そしてなぜ良いコンテンツの代わりにはならないのかを解説します。","datePublished":"2026-10-05","dateModified":"2026-10-05","image":["https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg","https://snmrush.com/assets/img/a01.webp"],"url":"https://snmrush.com/ja/blog/llms-txt-what-it-does-and-does-not-do/","mainEntityOfPage":"https://snmrush.com/ja/blog/llms-txt-what-it-does-and-does-not-do/","keywords":"llms.txt, generative engine optimisation, AI crawlers, GEO, technical SEO","articleSection":"テクニカルGEO","inLanguage":"ja","wordCount":1068,"author":{"@type":"Organization","name":"SNMRush editorial team","url":"https://snmrush.com/"},"publisher":{"@id":"https://snmrush.com/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SNMRush","item":"https://snmrush.com/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://snmrush.com/ja/blog/"},{"@type":"ListItem","position":3,"name":"llms.txt：できること、できないこと、導入すべきか","item":"https://snmrush.com/ja/blog/llms-txt-what-it-does-and-does-not-do/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"AI検索での可視性にllms.txtは必須ですか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。任意の提案であり、引用やランキングのシグナルとして認めている主要なAI検索エンジンはありません。クローラビリティ、強いコンテンツ、信頼できる言及のほうがはるかに重要です。"}},{"@type":"Question","name":"llms.txtはAIクローラーをブロックしますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。llms.txtは読むためのガイドです。特定のAIクローラーを許可またはブロックするには、公開されているユーザーエージェントに対するrobots.txtのルールを使います。"}},{"@type":"Question","name":"llms.txtはどこに置くべきですか？","acceptedAnswer":{"@type":"Answer","text":"ドメインのルートです。たとえばhttps://example.com/llms.txtのように置き、H1、短い要約、リンクのリストを含むMarkdownで書きます。"}}]},{"@type":"Organization","@id":"https://snmrush.com/#org","name":"SNMRush","url":"https://snmrush.com/","logo":"https://snmrush.com/brand/logo.svg","email":"ask@snmrush.com","description":"SNMRush (said \"S-N-M rush\") is an SEO, AEO and GEO agency. The name stands for Search, Neural answers and Mentions: we help brands rank in search results, get cited in AI answers from ChatGPT, Gemini, Perplexity and Google AI Overviews, and earn brand mentions. SOMIN, an AI audience-research platform, is our technology partner for finding the real questions audiences ask.","slogan":"Search, Neural answers, Mentions. One rush.","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@snmrush.com","contactType":"sales"},"knowsAbout":["AEO","AI Mode","AI Overviews","AI citations","AI content","AI crawlers","AI search","AI visibility","GEO","GEO measurement","Google search","JSON-LD","SEO","answer engine optimisation","answer-first writing","audience research","brand differentiation","brand entity","brand mentions","content strategy","content structure","conversational search","digital PR","entity SEO","featured snippets"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"SNMRush"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">コンテンツへスキップ</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="SNMRushホーム"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="SNMRushのロゴ"><rect x="4" y="24" width="7" height="12" rx="1.5" fill="#0F3D2E" opacity=".55"/><rect x="15" y="16" width="7" height="20" rx="1.5" fill="#0F3D2E" opacity=".8"/><rect x="26" y="8" width="7" height="28" rx="1.5" fill="#0F3D2E"/><circle cx="29.5" cy="3.8" r="3.2" fill="#F5D90A" stroke="#0F3D2E" stroke-width="1"/><text x="50" y="28" font-family="'Outfit', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#0F3D2E">SNM</tspan><tspan fill="#1F7A55">Rush</tspan></text></svg></a>
+<nav aria-label="メイン"><a href="../../index.html#work">実績</a><a href="../../index.html#services">私たちの活動</a><a href="../index.html">インサイト</a><a href="../../index.html#faq">よくある質問</a><a href="../../../brand/index.html">ブランド</a><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request">AI可視性診断を受ける</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="言語: 日本語"><span>日本語</span></summary><ul><li><a href="../../../blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="index.html" hreflang="ja" lang="ja" aria-current="page">日本語</a></li><li><a href="../../../pt/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="pt" lang="pt">Português</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="パンくずリスト"><a href="../../index.html">SNMRush</a> / <a href="../index.html">ブログ</a> / テクニカルGEO</nav>
+<h1 style="margin-top:18px">llms.txt：できること、できないこと、導入すべきか</h1><p class="meta">2026年10月5日 · 6分で読めます · SNMRush編集部 · <a href="#faq">よくある質問</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a01.webp" alt="積み重なったカードが広がる緑の大地を照らす黄色い灯台。AIクローラーのための地図" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">llms.txtは、ウェブサイトのルートに置く、提案段階のプレーンテキストのMarkdownファイルで、大規模言語モデルにサイトの簡潔な厳選された要約と、最も役立つページへのリンクを提供します。追加するのは手軽で、これを読むAIツールには役立つ可能性がありますが、ランキングや引用のシグナルとして認めている主要なAI検索エンジンはありません。</p>
+<h2>llms.txtとは、正確には何か？</h2>
+<p>考え方はシンプルです。ウェブページはブラウザのために作られています。ナビゲーション、Cookieバナー、スクリプト、フッター。あなたのビジネスを理解しようとする言語モデルは、それらすべてをかき分けなければなりません。2024年に公開されたllms.txtの提案は、<strong>/llms.txt</strong>にMarkdownで書かれた1つのファイルを置き、実質的に「私たちはこういう者で、読む価値のあるページはこれです」と伝えることを提案しています。主要ページのクリーンなMarkdown版を示すバージョンもあり、関連するアイデアであるllms-full.txtは、ドキュメントの全文を1つのファイルにまとめます。</p>
+<p>その位置づけについては正確に述べておく価値があります。llms.txtはコミュニティによる提案であって、ウェブ標準ではなく、robots.txtとも別物です。robots.txtは、クローラーに何を取得してよいか、いけないかを伝えます。llms.txtは何も許可もブロックもしません。読むためのガイドです。</p>
+<h2>ChatGPT、Gemini、Perplexity、Google AI Overviewsはこれを使っているのか？</h2>
+<p>このテーマの記事の多くが言い過ぎてしまうのがここなので、慎重に述べます。執筆時点で、主要なAI検索体験のいずれも、llms.txtが引用する情報源に影響すると公表していません。Googleは、自社のAI機能は通常の検索インデックスとランキングシステムに基づいているとしており、同社の担当者はこのファイルに懐疑的な姿勢を示しています。さまざまなサイト運営者のサーバーログにはllms.txtが時折取得されている記録がありますが、取得されたことは、回答に使われた証拠にはなりません。</p>
+<p>llms.txtが明らかに価値を持つのは、それを使うよう指示されたツールです。開発者向けアシスタント、コーディングエージェント、ドキュメントプラットフォームは、プロジェクトのllms.txtを読み込み、モデルが正確で最新のドキュメントを扱えるようにします。オーディエンスに開発者が含まれるなら、それだけでも手間をかける価値があります。</p>
+<blockquote>SNMRushの見解：llms.txtは可視性を高めるレバーではなく、きちんとした整理整頓として扱いましょう。1時間で済み、有益な明確化を促してくれますが、中身の薄いコンテンツを救ってはくれません。</blockquote>
+<h2>良いllms.txtはどう書くのか？</h2>
+<p>提案にある構成は短いものです。サイト名またはブランド名のH1、引用ブロックによる1段落の要約、任意のメモ、そしてそれぞれ1行の説明が付いたリンクのリストを含むH2セクション。「Optional」というセクションには、コンテキストが限られている場合にモデルが飛ばしてもよいリンクを入れられます。</p>
+<p>架空の会計ソフトウェア企業の例であれば、概要は次のようになります。</p>
+<ul>
+<li><strong>タイトル：</strong>ブランド名。呼ばれたいとおりの表記で。</li>
+<li><strong>要約：</strong>製品が何で、誰のためのもので、どこで展開しているかを述べる2文。アシスタントに答えてほしい答えとして書きましょう。</li>
+<li><strong>主要ページ：</strong>製品概要、料金、最も重要なヘルプ記事3本、セキュリティとコンプライアンス。</li>
+<li><strong>解説：</strong>オーディエンスの最もよくある質問に答えるガイド。</li>
+<li><strong>任意：</strong>会社の沿革、プレス、採用情報。</li>
+</ul>
+<p>最も重要なのは要約の段落で、これはすべてのページで推奨している回答ブロックと同じ規律です。自社を平易で事実に基づいた2文で説明できないなら、AIシステムも苦労するでしょう。そのスキルについては<a href="../answer-first-writing-for-ai-citations/index.html">アンサーファーストの書き方</a>のガイドで詳しく解説しています。</p>
+<h2>どのページを含めるべきか？</h2>
+<p>最も売りたいページではなく、本当の質問に答えるページを選びましょう。ここでオーディエンスリサーチが真価を発揮します。SNMRushでは、AIオーディエンスリサーチ・プラットフォームのSOMINを使って、公開された会話の中で人々があるカテゴリーについてどんな質問やテンションを口にしているかを確認し、サイトにそれぞれに対する明快なページがあるかをチェックします。それらの質問に答えるページはllms.txtに入れ、足りないものはコンテンツ計画に加えます。そのリサーチがより広く戦略にどう活かされるかは、<a href="https://somin.ai/somin-strategy/" rel="noopener">SOMINの戦略</a>の概要で説明しています。</p>
+<p>選定のための簡単なチェックリスト：</p>
+<ol>
+<li>そのページは、最初の段落で1つの質問に明確に答えているか？</li>
+<li>価格、機能、日付が正確で、最新の状態か？</li>
+<li>ログイン、スクリプト、インタースティシャルなしでアクセスできるか？</li>
+<li>アシスタントに一字一句そのまま引用されても問題ないか？</li>
+<li>重複する5ページのうちの1つではなく、その質問に対するサイト内で唯一最良のページか？</li>
+</ol>
+<h2>定義：llms.txtと関連するファイル</h2>
+<ul>
+<li><strong>robots.txt：</strong>クローラーがどのパスを取得してよいかを伝える、長く使われてきた標準。GPTBotやGoogle-ExtendedなどのAIクローラーを許可またはブロックするのはここです。</li>
+<li><strong>sitemap.xml：</strong>検索エンジンが発見できるよう、URLを機械可読の形で一覧にしたもの。</li>
+<li><strong>llms.txt：</strong>言語モデル向けに、最も役立つコンテンツを人間にも読める形で案内する、提案段階のMarkdownガイド。</li>
+<li><strong>llms-full.txt：</strong>全文を収めた、提案段階の補助ファイル。主にドキュメントに使われます。</li>
+</ul>
+<h2>llms.txtより重要なものは何か？</h2>
+<p>1週間しか時間がないなら、まずは他のことに使いましょう。ウェブを閲覧するAIアンサーエンジンのほとんどは検索インデックスを利用しているため、クローラビリティ、インデックス登録、検索順位が引き続き基盤です。次がコンテンツそのものです。直接的な答え、具体的な事実、誠実な比較。その次が<a href="../structured-data-for-ai-search/index.html">構造化データ</a>と一貫したエンティティ情報で、機械が自社を理解するのに役立ちます。最後が、信頼できる第三者サイトでの言及で、アシスタントが自社をどう説明するかを左右します。</p>
+<p>この順序は、1つのファイルやタグでAIでの可視性を勝ち取れるという思い込みへの有効な処方箋でもあります。姉妹スタジオの<a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing</a>が論じている推論モデルは、情報源を比較検討する力をますます高めています。中身に報い、ごまかしは通用しにくいのです。</p>
+<h2>効果が出ているかをどう確認するのか？</h2>
+<p>効果の帰属については控えめに考えましょう。サーバーログで/llms.txtへのリクエストを確認し、ユーザーエージェントを記録します。固定のプロンプトパネルを用意し、変更の前後でAIツールが自社を引用しているかを追跡しますが、どんな効果も、並行して行っている他の施策の影響と混ざり合うと考えておきましょう。<a href="https://somin.ai/agencies-kpi-media-case-study/" rel="noopener">KPI Mediaの導入事例</a>に登場するエージェンシーは、想定ではなくエビデンスに基づいて意思決定する価値を示しています。ここでも同じ原則が当てはまります。想定せず、測定することです。</p>
+<p>私たちの結論はシンプルです。ドキュメントがある、開発者のオーディエンスがいる、あるいは単に機械向けにサイトの整った要約を用意したいなら、llms.txtを追加しましょう。要約の段落は丁寧に書いてください。そのうえで、重要だとわかっている仕事に戻りましょう。オーディエンスが実際に尋ねている質問に、誰よりも上手に答えることです。</p>
+<p>現在の設定についてセカンドオピニオンが必要な場合、SNMRushはすべてのAI可視性診断に、クローラーのアクセス、スキーマ、引用の追跡とあわせて、llms.txtのレビューを含めています。</p>
+<section id="faq" style="padding:40px 0 0"><h2>よくある質問</h2><details><summary>AI検索での可視性にllms.txtは必須ですか？</summary><p>いいえ。任意の提案であり、引用やランキングのシグナルとして認めている主要なAI検索エンジンはありません。クローラビリティ、強いコンテンツ、信頼できる言及のほうがはるかに重要です。</p></details><details><summary>llms.txtはAIクローラーをブロックしますか？</summary><p>いいえ。llms.txtは読むためのガイドです。特定のAIクローラーを許可またはブロックするには、公開されているユーザーエージェントに対するrobots.txtのルールを使います。</p></details><details><summary>llms.txtはどこに置くべきですか？</summary><p>ドメインのルートです。たとえばhttps://example.com/llms.txtのように置き、H1、短い要約、リンクのリストを含むMarkdownで書きます。</p></details></section>
+<div class="cta-box"><h2>AI可視性診断を受ける</h2><p>SNMRushはアンサー時代の可視性エージェンシーです。オーディエンスが実際に尋ねている質問から出発し、検索エンジンが上位表示し、AIアシスタントが引用できるコンテンツを作ります。</p><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request%20%28re%3A%20llms.txt%3A%20what%20it%20does%2C%20what%20it%20doesn%27t%2C%20and%20whether%20to%20bother%29">ask@snmrush.com にメールする →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>続けて読む</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../structured-data-for-ai-search/index.html"><img src="../../../assets/img/a02-640.webp" alt="緑の地形の上で組み合わさる黄色いカードとノードの格子。スキーママークアップを表現" width="640" height="427" loading="lazy"><div class="b"><span class="tag">テクニカルSEO</span><h3>AI検索のための構造化データ：本当に役立つスキーマ</h3><p>検索エンジンやAIエンジンがブランドを理解するのに役立つschema.orgのタイプ、誠実な実装方法、そして構造化データにできないことを解説します。</p><div class="meta" style="margin-top:12px">2026年9月21日 · 6分で読めます</div></div></a><a class="post-card" href="../entity-building-for-brands/index.html"><img src="../../../assets/img/a03-640.webp" alt="緑の谷で、浮かぶカードや吹き出しと金色の糸でつながる黄色いモノリス" width="640" height="427" loading="lazy"><div class="b"><span class="tag">GEO</span><h3>エンティティ構築：AIエンジンに自社を知ってもらう方法</h3><p>ブランドが検索とAIにとって明確なエンティティになる方法。一貫した事実、公式プロフィール、第三者の情報源、そして自社にしか答えられない質問。</p><div class="meta" style="margin-top:12px">2026年9月14日 · 7分で読めます</div></div></a><a class="post-card" href="../earning-citations-and-brand-mentions/index.html"><img src="../../../assets/img/a04-640.webp" alt="緑の丘の上をランタンのように昇っていく回答の吹き出し。いくつかは黄色く光り、情報源へ光を返している" width="640" height="427" loading="lazy"><div class="b"><span class="tag">言及</span><h3>AIの回答で引用とブランドの言及を獲得する</h3><p>第三者による言及がAIアシスタントのブランドの説明を左右する理由と、スパムに頼らずに言及を獲得するための実践的で誠実なプレイブック。</p><div class="meta" style="margin-top:12px">2026年9月7日 · 7分で読めます</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="SNMRushのロゴ"><rect x="4" y="24" width="7" height="12" rx="1.5" fill="#F5D90A" opacity=".55"/><rect x="15" y="16" width="7" height="20" rx="1.5" fill="#F5D90A" opacity=".8"/><rect x="26" y="8" width="7" height="28" rx="1.5" fill="#F5D90A"/><circle cx="29.5" cy="3.8" r="3.2" fill="#F5D90A" stroke="#0F3D2E" stroke-width="1"/><text x="50" y="28" font-family="'Outfit', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">SNM</tspan><tspan fill="#F5D90A">Rush</tspan></text></svg></div><p style="max-width:30em">実際のオーディエンスの質問から出発する可視性エージェンシー。アンサー時代に、ブランドが上位表示され、引用され、言及されるよう支援します。</p>
+<p class="partner">テクノロジーパートナー <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request">AI可視性診断を受ける</a></p>
+<p>メール：<a href="mailto:ask@snmrush.com">ask@snmrush.com</a></p></div>
+<div><h4>SNMRush</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">私たちの活動</a></li><li><a href="../index.html">インサイト</a></li><li><a href="../../index.html#about">概要</a></li><li><a href="../../index.html#faq">よくある質問</a></li><li><a href="../../../brand/index.html">ブランドガイドライン</a></li><li><a href="https://snmrush.com/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">導入事例</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">ブランド向け</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">エージェンシー向け</a></li></ul></div>
+</div>
+<h4>ネットワーク</h4>
+<nav class="network" aria-label="姉妹企業"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>毎週月曜日、実際のシグナルをひとつ読み解く</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>検証できる常時リスニング</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>有料トラフィックを利益で測る</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>演奏するのはエージェント。指揮するのは人間。</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6年にわたるAIコンテンツの技</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>推論モデルのために再設計されたマーケティング</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>東南アジアの消費者心理と文化を読み解く</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 SNMRush · snmrush.com · シンガポール。SNMRushはSemrushとは関係ありません。 </p>
+</div></footer>
+</body></html>

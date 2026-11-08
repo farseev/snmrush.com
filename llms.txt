@@ -36,6 +36,7 @@
 
 - [简体中文](https://snmrush.com/zh-hans/) · [blog](https://snmrush.com/zh-hans/blog/) (10 articles translated)
 - [繁體中文](https://snmrush.com/zh-hant/) · [blog](https://snmrush.com/zh-hant/blog/) (10 articles translated)
+- [日本語](https://snmrush.com/ja/) · [blog](https://snmrush.com/ja/blog/) (10 articles translated)
 - [Português](https://snmrush.com/pt/) · [blog](https://snmrush.com/pt/blog/) (10 articles translated)
 
 ## FAQ
