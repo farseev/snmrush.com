@@ -48,6 +48,7 @@
 - [Français](https://snmrush.com/fr/) · [blog](https://snmrush.com/fr/blog/) (10 articles translated)
 - [Deutsch](https://snmrush.com/de/) · [blog](https://snmrush.com/de/blog/) (10 articles translated)
 - [Português](https://snmrush.com/pt/) · [blog](https://snmrush.com/pt/blog/) (10 articles translated)
+- [العربية](https://snmrush.com/ar/) · [blog](https://snmrush.com/ar/blog/) (10 articles translated)
 
 ## FAQ
 - **What do SEO, AEO and GEO mean?** SEO, search engine optimisation, is about ranking in traditional results. AEO, answer engine optimisation, is about being the source an assistant or featured answer uses for a direct question. GEO, generative engine optimisation, is about being cited and described accurately in generated answers from tools like ChatGPT, Gemini, Perplexity and Google AI Overviews. SNMRush treats them as one programme.
