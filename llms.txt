@@ -44,6 +44,7 @@
 - [Bahasa Melayu](https://snmrush.com/ms/) · [blog](https://snmrush.com/ms/blog/) (10 articles translated)
 - [हिन्दी](https://snmrush.com/hi/) · [blog](https://snmrush.com/hi/blog/) (10 articles translated)
 - [Filipino](https://snmrush.com/fil/) · [blog](https://snmrush.com/fil/blog/) (10 articles translated)
+- [Español](https://snmrush.com/es/) · [blog](https://snmrush.com/es/blog/) (10 articles translated)
 - [Português](https://snmrush.com/pt/) · [blog](https://snmrush.com/pt/blog/) (10 articles translated)
 
 ## FAQ
