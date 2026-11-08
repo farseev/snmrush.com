@@ -46,6 +46,7 @@
 - [Filipino](https://snmrush.com/fil/) · [blog](https://snmrush.com/fil/blog/) (10 articles translated)
 - [Español](https://snmrush.com/es/) · [blog](https://snmrush.com/es/blog/) (10 articles translated)
 - [Français](https://snmrush.com/fr/) · [blog](https://snmrush.com/fr/blog/) (10 articles translated)
+- [Deutsch](https://snmrush.com/de/) · [blog](https://snmrush.com/de/blog/) (10 articles translated)
 - [Português](https://snmrush.com/pt/) · [blog](https://snmrush.com/pt/blog/) (10 articles translated)
 
 ## FAQ
