@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>llms.txt: 하는 일, 하지 않는 일, 그리고 굳이 만들어야 할까</title>
+<meta name="description" content="llms.txt 실전 가이드: 제안된 이 파일이 무엇인지, 어떤 AI 도구가 읽는지, 어떻게 작성하는지, 그리고 왜 좋은 콘텐츠를 대신할 수 없는지 설명합니다.">
+<link rel="canonical" href="https://snmrush.com/ko/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="en-SG" href="https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snmrush.com/zh-hans/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snmrush.com/zh-hant/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="ja" href="https://snmrush.com/ja/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="ko" href="https://snmrush.com/ko/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="pt" href="https://snmrush.com/pt/blog/llms-txt-what-it-does-and-does-not-do/">
+<link rel="alternate" hreflang="x-default" href="https://snmrush.com/blog/llms-txt-what-it-does-and-does-not-do/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0F3D2E">
+<meta property="og:site_name" content="SNMRush">
+<meta property="og:type" content="website">
+<meta property="og:title" content="llms.txt: 하는 일, 하지 않는 일, 그리고 굳이 만들어야 할까">
+<meta property="og:description" content="llms.txt는 웹사이트 루트에 두는 일반 텍스트 Markdown 파일에 대한 제안으로, 대규모 언어 모델에 사이트의 짧고 엄선된 요약과 가장 유용한 페이지의 링크를 제공합니다.">
+<meta property="og:url" content="https://snmrush.com/ko/blog/llms-txt-what-it-does-and-does-not-do/">
+<meta property="og:image" content="https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="llms.txt: 하는 일, 하지 않는 일, 그리고 굳이 만들어야 할까, SNMRush">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="llms.txt: 하는 일, 하지 않는 일, 그리고 굳이 만들어야 할까">
+<meta name="twitter:description" content="llms.txt는 웹사이트 루트에 두는 일반 텍스트 Markdown 파일에 대한 제안으로, 대규모 언어 모델에 사이트의 짧고 엄선된 요약과 가장 유용한 페이지의 링크를 제공합니다.">
+<meta name="twitter:image" content="https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg">
+<meta name="twitter:image:alt" content="llms.txt: 하는 일, 하지 않는 일, 그리고 굳이 만들어야 할까, SNMRush">
+<meta name="application-name" content="SNMRush"><meta name="apple-mobile-web-app-title" content="SNMRush">
+<meta property="article:author" content="SNMRush"><meta property="article:published_time" content="2026-10-05"><meta property="article:section" content="기술 GEO"><meta name="keywords" content="llms.txt, generative engine optimisation, AI crawlers, GEO, technical SEO">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="SNMRush 블로그" href="https://snmrush.com/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Outfit','Noto Sans KR',system-ui,sans-serif;--fb:'Inter','Noto Sans KR',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H27LTRN2V2"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-H27LTRN2V2');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"llms.txt: 하는 일, 하지 않는 일, 그리고 굳이 만들어야 할까","description":"llms.txt 실전 가이드: 제안된 이 파일이 무엇인지, 어떤 AI 도구가 읽는지, 어떻게 작성하는지, 그리고 왜 좋은 콘텐츠를 대신할 수 없는지 설명합니다.","datePublished":"2026-10-05","dateModified":"2026-10-05","image":["https://snmrush.com/assets/img/og/llms-txt-what-it-does-and-does-not-do.jpg","https://snmrush.com/assets/img/a01.webp"],"url":"https://snmrush.com/ko/blog/llms-txt-what-it-does-and-does-not-do/","mainEntityOfPage":"https://snmrush.com/ko/blog/llms-txt-what-it-does-and-does-not-do/","keywords":"llms.txt, generative engine optimisation, AI crawlers, GEO, technical SEO","articleSection":"기술 GEO","inLanguage":"ko","wordCount":1068,"author":{"@type":"Organization","name":"SNMRush editorial team","url":"https://snmrush.com/"},"publisher":{"@id":"https://snmrush.com/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SNMRush","item":"https://snmrush.com/ko/"},{"@type":"ListItem","position":2,"name":"블로그","item":"https://snmrush.com/ko/blog/"},{"@type":"ListItem","position":3,"name":"llms.txt: 하는 일, 하지 않는 일, 그리고 굳이 만들어야 할까","item":"https://snmrush.com/ko/blog/llms-txt-what-it-does-and-does-not-do/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"AI 검색 가시성을 위해 llms.txt가 필수입니까?","acceptedAnswer":{"@type":"Answer","text":"아닙니다. 선택적인 제안이며, 주요 AI 검색 엔진 중 이를 인용이나 순위 시그널로 확인한 곳은 없습니다. 크롤링 가능성, 강력한 콘텐츠, 신뢰할 수 있는 언급이 훨씬 더 중요합니다."}},{"@type":"Question","name":"llms.txt는 AI 크롤러를 차단합니까?","acceptedAnswer":{"@type":"Answer","text":"아닙니다. llms.txt는 읽기 안내서입니다. 특정 AI 크롤러를 허용하거나 차단하려면 공개된 사용자 에이전트에 대한 robots.txt 규칙을 사용하십시오."}},{"@type":"Question","name":"llms.txt는 어디에 두어야 합니까?","acceptedAnswer":{"@type":"Answer","text":"도메인 루트에 두십시오. 예를 들어 https://example.com/llms.txt이며, H1, 짧은 요약, 링크 목록을 갖춘 Markdown으로 작성합니다."}}]},{"@type":"Organization","@id":"https://snmrush.com/#org","name":"SNMRush","url":"https://snmrush.com/","logo":"https://snmrush.com/brand/logo.svg","email":"ask@snmrush.com","description":"SNMRush (said \"S-N-M rush\") is an SEO, AEO and GEO agency. The name stands for Search, Neural answers and Mentions: we help brands rank in search results, get cited in AI answers from ChatGPT, Gemini, Perplexity and Google AI Overviews, and earn brand mentions. SOMIN, an AI audience-research platform, is our technology partner for finding the real questions audiences ask.","slogan":"Search, Neural answers, Mentions. One rush.","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@snmrush.com","contactType":"sales"},"knowsAbout":["AEO","AI Mode","AI Overviews","AI citations","AI content","AI crawlers","AI search","AI visibility","GEO","GEO measurement","Google search","JSON-LD","SEO","answer engine optimisation","answer-first writing","audience research","brand differentiation","brand entity","brand mentions","content strategy","content structure","conversational search","digital PR","entity SEO","featured snippets"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"SNMRush"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="SNMRush 홈"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="SNMRush 로고"><rect x="4" y="24" width="7" height="12" rx="1.5" fill="#0F3D2E" opacity=".55"/><rect x="15" y="16" width="7" height="20" rx="1.5" fill="#0F3D2E" opacity=".8"/><rect x="26" y="8" width="7" height="28" rx="1.5" fill="#0F3D2E"/><circle cx="29.5" cy="3.8" r="3.2" fill="#F5D90A" stroke="#0F3D2E" stroke-width="1"/><text x="50" y="28" font-family="'Outfit', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#0F3D2E">SNM</tspan><tspan fill="#1F7A55">Rush</tspan></text></svg></a>
+<nav aria-label="메인"><a href="../../index.html#work">사례</a><a href="../../index.html#services">하는 일</a><a href="../index.html">인사이트</a><a href="../../index.html#faq">FAQ</a><a href="../../../brand/index.html">브랜드</a><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request">AI 가시성 진단 받기</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="언어: 한국어"><span>한국어</span></summary><ul><li><a href="../../../blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="../../../ja/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="index.html" hreflang="ko" lang="ko" aria-current="page">한국어</a></li><li><a href="../../../pt/blog/llms-txt-what-it-does-and-does-not-do/index.html" hreflang="pt" lang="pt">Português</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="이동 경로"><a href="../../index.html">SNMRush</a> / <a href="../index.html">블로그</a> / 기술 GEO</nav>
+<h1 style="margin-top:18px">llms.txt: 하는 일, 하지 않는 일, 그리고 굳이 만들어야 할까</h1><p class="meta">2026년 10월 5일 · 6분 분량 · SNMRush 편집팀 · <a href="#faq">FAQ</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a01.webp" alt="쌓인 카드로 이루어진 초록 풍경 위로 빛을 비추는 노란 등대, AI 크롤러를 위한 지도" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">llms.txt는 웹사이트 루트에 두는 일반 텍스트 Markdown 파일에 대한 제안으로, 대규모 언어 모델에 사이트의 짧고 엄선된 요약과 가장 유용한 페이지의 링크를 제공합니다. 추가하는 비용이 적고 이를 읽는 AI 도구에 도움이 될 수 있지만, 주요 AI 검색 엔진 중 이를 순위나 인용 시그널로 확인한 곳은 없습니다.</p>
+<h2>llms.txt란 정확히 무엇입니까?</h2>
+<p>아이디어는 단순합니다. 웹 페이지는 내비게이션, 쿠키 배너, 스크립트, 푸터 등 브라우저를 위해 만들어집니다. 여러분의 비즈니스를 이해하려는 언어 모델은 이 모든 것을 헤치고 들어가야 합니다. 2024년에 발표된 llms.txt 제안은 <strong>/llms.txt</strong>에 Markdown으로 작성한 단일 파일을 두어, 사실상 “저희는 이런 곳이며, 읽어 볼 만한 페이지는 이것들입니다”라고 말하자는 것입니다. 일부 버전은 주요 페이지의 깔끔한 Markdown 사본도 가리키며, 이와 짝을 이루는 llms-full.txt는 문서 전체 텍스트를 하나의 파일로 묶습니다.</p>
+<p>그 위상은 정확히 짚어 둘 필요가 있습니다. llms.txt는 웹 표준이 아니라 커뮤니티 제안이며, robots.txt와도 다릅니다. robots.txt는 크롤러에게 무엇을 가져가도 되고 무엇을 가져가면 안 되는지 알려 줍니다. llms.txt는 아무것도 허용하거나 차단하지 않습니다. 일종의 읽기 안내서입니다.</p>
+<h2>ChatGPT, Gemini, Perplexity, Google AI Overviews는 이를 사용합니까?</h2>
+<p>이 주제를 다룬 글 대부분이 지나치게 나아가는 부분이므로 신중하게 말씀드리겠습니다. 이 글을 쓰는 시점에 주요 AI 검색 서비스 중 어느 곳도 llms.txt가 인용 출처 선택에 영향을 준다고 공개적으로 밝히지 않았습니다. Google은 자사 AI 기능이 일반 검색 색인과 순위 시스템에 의존한다고 밝혔고, Google 관계자들은 이 파일에 회의적인 입장을 보여 왔습니다. 여러 사이트 운영자의 서버 로그에서 llms.txt를 가끔 가져가는 기록이 확인되지만, 가져갔다고 해서 답변에 사용되었다는 증거는 아닙니다.</p>
+<p>llms.txt가 분명히 가치를 갖는 곳은 이를 사용하도록 지시받은 도구입니다. 모델이 정확한 최신 문서로 작업할 수 있도록 프로젝트의 llms.txt를 불러오는 개발자 어시스턴트, 코딩 에이전트, 문서화 플랫폼이 그렇습니다. 오디언스에 개발자가 포함되어 있다면 그것만으로도 노력할 가치가 있습니다.</p>
+<blockquote>SNMRush의 견해: llms.txt를 가시성의 지렛대가 아니라 좋은 정리 정돈으로 여기십시오. 한 시간이면 되고, 유용한 명확성을 강제하며, 부실한 콘텐츠를 구해 주지는 않습니다.</blockquote>
+<h2>좋은 llms.txt는 어떻게 작성합니까?</h2>
+<p>제안에 담긴 구조는 짧습니다. 사이트 또는 브랜드 이름을 담은 H1, 인용 블록 안의 한 문단짜리 요약, 선택적 메모, 그리고 각각 한 줄 설명이 붙은 링크 목록을 담은 H2 섹션입니다. “Optional”이라는 섹션에는 컨텍스트가 제한될 때 모델이 건너뛰어도 되는 링크를 넣을 수 있습니다.</p>
+<p>가상의 회계 소프트웨어 회사를 예로 들면 개요는 다음과 같을 수 있습니다.</p>
+<ul>
+<li><strong>제목:</strong> 불리고 싶은 그대로의 브랜드 이름.</li>
+<li><strong>요약:</strong> 제품이 무엇인지, 누구를 위한 것인지, 어디에서 운영되는지를 밝히는 두 문장. 어시스턴트가 해 주기를 바라는 답처럼 쓰십시오.</li>
+<li><strong>핵심 페이지:</strong> 제품 개요, 가격, 가장 중요한 도움말 세 개, 보안 및 컴플라이언스.</li>
+<li><strong>해설:</strong> 오디언스가 가장 흔히 묻는 질문에 답하는 가이드.</li>
+<li><strong>선택 사항:</strong> 회사 연혁, 보도 자료, 채용.</li>
+</ul>
+<p>가장 중요한 것은 요약 문단이며, 저희가 모든 페이지에 권장하는 답변 블록과 같은 원칙이 적용됩니다. 회사를 평이하고 사실적인 두 문장으로 설명할 수 없다면 AI 시스템도 어려움을 겪을 것입니다. <a href="../answer-first-writing-for-ai-citations/index.html">답변 우선 글쓰기</a> 가이드에서 이 기술을 깊이 다룹니다.</p>
+<h2>어떤 페이지를 포함해야 합니까?</h2>
+<p>가장 팔고 싶은 페이지가 아니라 실제 질문에 답하는 페이지를 고르십시오. 바로 여기서 오디언스 리서치가 제값을 합니다. SNMRush는 AI 오디언스 리서치 플랫폼인 SOMIN을 사용해 사람들이 공개 대화에서 카테고리에 관해 어떤 질문과 긴장을 표현하는지 확인한 다음, 사이트에 각각에 대한 명확한 페이지가 있는지 점검합니다. 그 질문에 답하는 페이지는 llms.txt에 들어가고, 빈 곳은 콘텐츠 계획에 들어갑니다. 그 리서치가 전략 전반에 어떻게 반영되는지 보시려면 <a href="https://somin.ai/somin-strategy/" rel="noopener">SOMIN 전략</a> 개요에서 접근 방식을 확인하십시오.</p>
+<p>선택을 위한 간단한 체크리스트:</p>
+<ol>
+<li>페이지가 첫 문단에서 하나의 질문에 명확하게 답합니까?</li>
+<li>가격, 기능, 날짜가 정확한 최신 상태입니까?</li>
+<li>로그인, 스크립트, 중간 광고 없이 접근할 수 있습니까?</li>
+<li>어시스턴트가 이를 글자 그대로 인용해도 괜찮습니까?</li>
+<li>서로 겹치는 다섯 페이지 중 하나가 아니라, 그 질문에 대해 사이트에서 가장 좋은 단 하나의 페이지입니까?</li>
+</ol>
+<h2>정의: llms.txt와 그 이웃들</h2>
+<ul>
+<li><strong>robots.txt:</strong> 크롤러가 어떤 경로를 가져갈 수 있는지 알려 주는 오래된 표준. GPTBot이나 Google-Extended 같은 AI 크롤러를 허용하거나 차단하는 곳입니다.</li>
+<li><strong>sitemap.xml:</strong> 검색 엔진이 발견할 수 있도록 URL을 나열한 기계 판독용 목록.</li>
+<li><strong>llms.txt:</strong> 언어 모델을 위해 가장 유용한 콘텐츠를 안내하는, 사람이 읽을 수 있는 Markdown 가이드에 대한 제안.</li>
+<li><strong>llms-full.txt:</strong> 전체 텍스트를 담은 동반 파일에 대한 제안으로, 주로 문서화에 사용됩니다.</li>
+</ul>
+<h2>llms.txt보다 더 중요한 것은 무엇입니까?</h2>
+<p>일주일밖에 없다면 다른 곳에 먼저 쓰십시오. 웹을 탐색하는 대부분의 AI 답변 엔진은 검색 색인을 활용하므로, 크롤링 가능성, 색인 생성, 순위가 여전히 기반입니다. 다음은 콘텐츠 자체입니다. 직접적인 답, 구체적인 사실, 정직한 비교. 그다음은 기계가 여러분이 누구인지 이해하도록 돕는 <a href="../structured-data-for-ai-search/index.html">구조화 데이터</a>와 일관된 엔티티 정보입니다. 마지막으로, 어시스턴트가 여러분을 설명하는 방식을 좌우하는 신뢰할 수 있는 제3자 사이트에서의 언급입니다.</p>
+<p>이 순서는 파일이나 태그 하나로 AI 가시성을 얻을 수 있다는 믿음에 대한 유용한 해독제이기도 합니다. 자매 스튜디오 <a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing</a>이 다루는 추론 모델은 출처를 저울질하는 데 점점 능숙해지고 있으며, 실질에 보상하고 속이기 어렵습니다.</p>
+<h2>효과가 있는지 어떻게 확인합니까?</h2>
+<p>성과 귀속에 대해서는 겸손해야 합니다. 서버 로그에서 /llms.txt 요청을 확인하고 사용자 에이전트를 기록하십시오. 고정된 프롬프트 패널을 유지하며 변경 전후로 AI 도구가 여러분을 인용하는지 추적하되, 어떤 효과든 여러분이 하고 있는 다른 모든 일과 섞여 나타날 것이라고 예상하십시오. <a href="https://somin.ai/agencies-kpi-media-case-study/" rel="noopener">KPI Media 사례 연구</a>에 소개된 에이전시는 가정이 아닌 근거에 기반해 결정하는 것의 가치를 보여 주며, 같은 원칙이 여기에도 적용됩니다. 가정하지 말고 측정하십시오.</p>
+<p>저희의 결론은 간단합니다. 문서가 있거나, 개발자 오디언스가 있거나, 단순히 기계를 위한 깔끔한 사이트 요약을 원한다면 llms.txt를 추가하십시오. 요약 문단은 공들여 쓰십시오. 그런 다음 중요하다고 알려진 작업으로 돌아가십시오. 오디언스가 실제로 묻는 질문에 누구보다 잘 답하는 일입니다.</p>
+<p>현재 설정에 대해 다른 의견이 필요하시다면, SNMRush는 모든 AI 가시성 진단에 크롤러 접근, 스키마, 인용 추적과 함께 llms.txt 검토를 포함합니다.</p>
+<section id="faq" style="padding:40px 0 0"><h2>자주 묻는 질문</h2><details><summary>AI 검색 가시성을 위해 llms.txt가 필수입니까?</summary><p>아닙니다. 선택적인 제안이며, 주요 AI 검색 엔진 중 이를 인용이나 순위 시그널로 확인한 곳은 없습니다. 크롤링 가능성, 강력한 콘텐츠, 신뢰할 수 있는 언급이 훨씬 더 중요합니다.</p></details><details><summary>llms.txt는 AI 크롤러를 차단합니까?</summary><p>아닙니다. llms.txt는 읽기 안내서입니다. 특정 AI 크롤러를 허용하거나 차단하려면 공개된 사용자 에이전트에 대한 robots.txt 규칙을 사용하십시오.</p></details><details><summary>llms.txt는 어디에 두어야 합니까?</summary><p>도메인 루트에 두십시오. 예를 들어 https://example.com/llms.txt이며, H1, 짧은 요약, 링크 목록을 갖춘 Markdown으로 작성합니다.</p></details></section>
+<div class="cta-box"><h2>AI 가시성 진단 받기</h2><p>SNMRush는 답변의 시대를 위한 가시성 에이전시입니다. 오디언스가 실제로 묻는 질문에서 출발해, 검색 엔진이 순위를 매기고 AI 어시스턴트가 인용할 수 있는 콘텐츠를 만듭니다.</p><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request%20%28re%3A%20llms.txt%3A%20what%20it%20does%2C%20what%20it%20doesn%27t%2C%20and%20whether%20to%20bother%29">이메일 ask@snmrush.com →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>계속 읽기</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../structured-data-for-ai-search/index.html"><img src="../../../assets/img/a02-640.webp" alt="초록 대지 위에 서로 맞물린 카드와 노드로 이루어진 노란 격자, 스키마 마크업을 상징" width="640" height="427" loading="lazy"><div class="b"><span class="tag">기술 SEO</span><h3>AI 검색을 위한 구조화 데이터: 제값을 하는 스키마</h3><p>검색 엔진과 AI 엔진이 브랜드를 이해하는 데 도움이 되는 schema.org 유형, 이를 정직하게 구현하는 방법, 그리고 구조화 데이터가 할 수 없는 일을 다룹니다.</p><div class="meta" style="margin-top:12px">2026년 9월 21일 · 6분 분량</div></div></a><a class="post-card" href="../entity-building-for-brands/index.html"><img src="../../../assets/img/a03-640.webp" alt="초록 계곡에서 금빛 실로 떠다니는 카드와 말풍선에 연결된 노란 모노리스" width="640" height="427" loading="lazy"><div class="b"><span class="tag">GEO</span><h3>엔티티 구축: AI 엔진이 여러분이 누구인지 알게 하는 방법</h3><p>브랜드가 검색과 AI에서 명확한 엔티티가 되는 방법: 일관된 사실, 공식 프로필, 제3자 소스, 그리고 여러분만 답할 수 있는 질문.</p><div class="meta" style="margin-top:12px">2026년 9월 14일 · 7분 읽기</div></div></a><a class="post-card" href="../earning-citations-and-brand-mentions/index.html"><img src="../../../assets/img/a04-640.webp" alt="초록 언덕 위로 등불처럼 떠오르는 답변 말풍선들, 그중 일부는 노랗게 빛나며 출처를 향해 빛을 되비춤" width="640" height="427" loading="lazy"><div class="b"><span class="tag">언급</span><h3>AI 답변에서 인용과 브랜드 언급 얻기</h3><p>제3자 언급이 AI 어시스턴트가 브랜드를 설명하는 방식을 좌우하는 이유, 그리고 스팸 없이 언급을 얻기 위한 실용적이고 정직한 플레이북.</p><div class="meta" style="margin-top:12px">2026년 9월 7일 · 7분 읽기</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="SNMRush 로고"><rect x="4" y="24" width="7" height="12" rx="1.5" fill="#F5D90A" opacity=".55"/><rect x="15" y="16" width="7" height="20" rx="1.5" fill="#F5D90A" opacity=".8"/><rect x="26" y="8" width="7" height="28" rx="1.5" fill="#F5D90A"/><circle cx="29.5" cy="3.8" r="3.2" fill="#F5D90A" stroke="#0F3D2E" stroke-width="1"/><text x="50" y="28" font-family="'Outfit', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">SNM</tspan><tspan fill="#F5D90A">Rush</tspan></text></svg></div><p style="max-width:30em">실제 오디언스의 질문에서 출발하는 가시성 에이전시. 답변의 시대에 브랜드가 순위에 오르고, 인용되고, 언급되도록 돕습니다.</p>
+<p class="partner">기술 파트너 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@snmrush.com?subject=AI%20visibility%20audit%20request">AI 가시성 진단 받기</a></p>
+<p>이메일 <a href="mailto:ask@snmrush.com">ask@snmrush.com</a></p></div>
+<div><h4>SNMRush</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">하는 일</a></li><li><a href="../index.html">인사이트</a></li><li><a href="../../index.html#about">소개</a></li><li><a href="../../index.html#faq">FAQ</a></li><li><a href="../../../brand/index.html">브랜드 가이드라인</a></li><li><a href="https://snmrush.com/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">사례 연구</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">브랜드용</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">에이전시용</a></li></ul></div>
+</div>
+<h4>네트워크</h4>
+<nav class="network" aria-label="자매 회사"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>매주 월요일 해독하는 하나의 실제 시그널</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>검증할 수 있는 상시 리스닝</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>수익으로 측정하는 유료 트래픽</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>에이전트가 연주하고, 사람이 지휘합니다.</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6년간 쌓아 온 AI 콘텐츠 역량</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>추론 모델 시대에 맞게 재설계한 마케팅</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>동남아시아를 위해 해독한 소비자 심리와 문화</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 SNMRush · snmrush.com · 싱가포르. SNMRush는 Semrush와 관련이 없습니다. </p>
+</div></footer>
+</body></html>
