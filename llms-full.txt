@@ -664,7 +664,7 @@ If a page fails most of these, it may still rank for a while. It is unlikely to 
 
 No. Google has said it judges content on quality rather than how it was produced, and most good teams use AI somewhere in their process. The problem is unedited, ungrounded AI content: fluent, plausible and empty. Our sister consultancy GPT3 Marketing (https://gpt3.marketing/) has worked on brand voice systems since the GPT-3 API opened in 2020, and their position is one we share: AI is a drafting tool, and evidence plus human editing is what makes the result yours.
 
-The same holds for agentic workflows. If you automate research and drafting, the quality of what goes in decides the quality of what comes out. Agencies in the SAMY case study (https://somin.ai/agencies-samy-case-study/) illustrate how grounding work in audience evidence shapes the creative that follows.
+The same holds for agentic workflows. If you automate research and drafting, the quality of what goes in decides the quality of what comes out. Agencies in SOMIN's case studies (https://somin.ai/cases-ai-marketing-strategy/) illustrate how grounding work in audience evidence shapes the creative that follows.
 
 ## How does this connect to SEO, AEO and GEO?
 
